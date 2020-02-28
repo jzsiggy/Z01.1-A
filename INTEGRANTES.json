@@ -1,32 +1,32 @@
 {
   "aluno-1": {
-    "nome": "",
-    "email-insper": "",
-    "user-github": ""
+    "nome": "João Zsigmond",
+    "email-insper": "joaoz@al.insper.edu.br",
+    "user-github": "jzsiggy"
   },
   "aluno-2": {
-    "nome": "",
-    "email-insper": "",
-    "user-github": ""
+    "nome": "Beatriz Muniz de Castro e Silva",
+    "email-insper": "beatrizmcs@al.insper.edu.br",
+    "user-github": "Bilbia"
   },
   "aluno-3": {
-    "nome": "",
-    "email-insper": "",
-    "user-github": ""
+    "nome": "Luís Filipe Martins Loureiro",
+    "email-insper": "luisfml@al.insper.edu.br",
+    "user-github": "LuisFilipeMLoureiro"
   },
   "aluno-4": {
-    "nome": "",
-    "email-insper": "",
-    "user-github": ""
+    "nome": "Amanda Carmo",
+    "email-insper": "amandarc1@al.insper.edu.br",
+    "user-github": "Amanda-Carmo"
   },
   "aluno-5": {
-    "nome": "",
-    "email-insper": "",
-    "user-github": ""
+    "nome": "Sophia Kerber Shigueoka",
+    "email-insper": "sophiaks@al.insper.edu.br",
+    "user-github": "sophiaks"
   },
   "aluno-6": {
-    "nome": "",
-    "email-insper": "",
-    "user-github": ""
+    "nome": "Arthur Ferreira Carvalho",
+    "email-insper": "arthurfc2@al.insper.edu.br",
+    "user-github": "arthurfc12"
   }
 }
