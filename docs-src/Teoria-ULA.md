@@ -1,4 +1,0 @@
-# Unidade Lógica Aritmética (ULA)
-
-
-
