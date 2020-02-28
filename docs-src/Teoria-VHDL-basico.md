@@ -108,10 +108,10 @@ por ora.
 
 #### Exemplos
 
-Módulo com duas entradas binárias: `a`, `x` e uma saída `b`
+- Módulo com duas entradas binárias: `a`, `x` e uma saída `b`
 
 ```vhdl
-    entity TopLevel is
+    entity Comp1 is
       port(
             a   : in  std_logic;
             x   : in  std_logic;
@@ -120,7 +120,9 @@ Módulo com duas entradas binárias: `a`, `x` e uma saída `b`
     end entity;
 ```
 
-Módulo chamado MUX que possui 4 entradas na forma de um vetor (`I : in std_logic_vector(3 downto 0)`), um seletor de dois bits na forma de um vetor (`S`) e uma saída `q` na forma de um bit.
+![](figs/VHDL/VHDL-basico-exe1.svg)
+
+- Módulo chamado MUX que possui 4 entradas na forma de um vetor (`I : in std_logic_vector(3 downto 0)`), um seletor de dois bits na forma de um vetor (`S`) e uma saída `q` na forma de um bit.
 
 ```vhdl
     entity mux is
@@ -132,6 +134,8 @@ Módulo chamado MUX que possui 4 entradas na forma de um vetor (`I : in std_logi
     end entity;
 ```
 
+![](figs/VHDL/VHDL-basico-exe2.svg)
+
 !!! tip 
     Note que a entrada `I` foi declarada como sendo um vetor que começa em `3` e termina em `0`, possuindo no total 4 bits: `3`, `2`, `1`, `0`
     
@@ -142,7 +146,7 @@ Módulo chamado MUX que possui 4 entradas na forma de um vetor (`I : in std_logi
     
     ![](figs/VHDL/vector-bus.png){width=300}
     
-Entidade de uma ULA
+- Entidade de uma ULA
 
 ```vhdl
 entity ALU is
@@ -162,8 +166,10 @@ end entity;
 
 ```
 
+![](figs/VHDL/VHDL-basico-exe3.png){width=400}
+
 !!! note "nota"
-    Note que a primeira linha declara duas portas com nome `x` e `y` com a mesma direção `in` e do tipo `std_logic_vector(15 downto 0)`. Isso é um atalho no VHDL, e deve ser evitado. O ideal é reescrever essa linha como a seguir:
+    Note que a primeira linha declara duas portas com nome `x` e `y` com a mesma direção `in` e do tipo `std_logic_vector(15 downto 0)`. Isso é um atalho no VHDL e deve ser evitado. O ideal é reescrever essa linha como a seguir:
     
     ```vhdl
     port (
@@ -219,7 +225,7 @@ No VHDL usamos `<=` para representar que alguma coisa (a esquerda da seta) receb
 !!! note 
     Note que aqui estamos usando aspas simples: `'0' e '1'` para indicar um número binário (`std_logic`). Aspas dupla `"0101"` em VHDL significa que estamos trabalhando com um vetor de números binários (`std_logic_vector`).
     
-Podemos utilizar portas lógicas nas operações, alguns operadores implementados pela linguagem são: `not`, `and`, `or`, `nand`, `nor`, `xor`, `xnor`. O uso dos operadores é feito da seguinte maneira:
+Podemos utilizar portas lógicas nas operações, alguns operadores implementados pela linguagem, são eles: `not`, `and`, `or`, `nand`, `nor`, `xor`, `xnor`. O uso dos operadores é feito da seguinte maneira:
     
 1. `q <= not x` q recebe o valor de x **negado**
 1. `q <= x and y` q recebe o valor de x **E** y
@@ -257,14 +263,18 @@ Exemplos de operação com vetores:
 1. `q <= not b(1)` a saída binária `q` recebe o `bit 1` da entrada `b` negado.
 
 !!! tip
-    É comum confundir quando usa aspas simples `''` e aspas dupla `""`, fique atento aos 
+    É comum confundir quando usar aspas simples `''` e aspas dupla `""`, fique atento aos 
     erros de compilação.
 
-#### signais
+#### signal
 
 Sinais são declarados entre a palavra reservada `architecture` e o `begin` e servem para
 facilitar/ possibilitar o desenvolvimento de um sistema digital, eles só são visíveis
-dentro de uma entidade e servem como 'fios' internos de um módulo. `Sinais` diferente de portas não possuem direção, e são declarados da seguinte maneira:
+dentro de uma entidade e servem como 'fios' internos de um módulo. 
+
+![](figs/VHDL/VHDL-basico-signals.svg){width=400}
+
+`Sinais` são diferente de portas não possuem direção, e são declarados da seguinte maneira:
 
 ``` vhdl
 signal NAME : TYPE
@@ -295,3 +305,4 @@ end rtl;
 ```
 
 No exemplo anterior, criamos um sinal auxiliar chamado de `aux1` que recebe a entrada `a` negada, esse sinal é então atribuído a saída `q` e ao `bit 0` da saída `p`. Outro sinal `aux2`, vetor de 2 bits recebe os dois bits mais significativos da entrada `b` e então é atribuído a saída `p`, bits 2 e 1.
+

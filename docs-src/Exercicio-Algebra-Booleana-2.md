@@ -1,6 +1,6 @@
 # Álgebra Booleana - 2
 
-> [![](figs/pdf.png)](): Versão para impressão.
+> [![](figs/pdf.png)](https://github.com/Insper/Z01.1/raw/master/Exercicios/Exercicio-Algebra-Booleana-2.pdf): Versão para impressão.
 
 ### Simplifique o circuito a seguir:
 

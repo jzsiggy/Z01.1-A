@@ -1,5 +1,6 @@
 site_name: '2020-1 - Elementos de Sistemas - Z01'
 theme:
+  language: 'pt'
   feature:
     tabs: true
   name: 'material'
@@ -11,13 +12,14 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
+  custom_dir: 'custom_theme'
 
 docs_dir: docs-src
 site_dir: docs
 
 repo_name: 'Insper/Z01.1'
 repo_url: 'https://github.com/insper/Z01.1'
-edit_uri: 'https://github.com/Insper/Z01.1/edit/master/docs-src/'
+edit_url: 'https://github.com/Insper/Z01.1/edit/master/docs-src/'
 
 # Copyright
 copyright: 'Copyright &copy; Rafael Corsi @ insper'
@@ -28,82 +30,97 @@ nav:
   - 'Critérios de Avaliação': 'Sobre-Criterios-de-Avaliacao.md'
   - 'Rubricas Projetos': 'Sobre-Rubricas.md'
 
-- Uteis:
+- 'Projetos':
+#  - 'Util-Resumo-Projetos.md'
+#  - 'X - Mundo real': 'X-Processadores-Projeto.md'
+#  - 'J - VM Translator':
+#    - 'Projeto': 'J-VMtranslator-Projeto.md'
+#    - 'VM Função': 'J-VMtranslator-memoria.md'
+#  - 'I - VM':
+#    - 'Projeto': 'I-VM-Projeto.md'
+#    - 'VM Linguagem': 'Util-Resumo-VM.md'
+#    - 'VM Memória': 'I-VM-Ferramental-Memoria.md'
+#  - 'H - Assembler':
+#    - 'Projeto': 'H-Assembler-Projeto.md'
+#    - 'Prerequisitos': 'H-Assembler-Prerequisitos.md'
+#    - 'Testando': 'H-Assembler-Testando.md'
+#    - 'Dicas SymbolTable': 'H-Assembler-Dicas-SymbolTable.md'
+#    - 'Dicas Macro': 'H-Assembler-Dicas-Macro.md'
+#  - 'G - CPU':
+#    - 'CPU Projeto': 'G-CPU-Projeto.md'
+#    - 'Dicas testando': 'G-CPU-Testando.md'
+#    - 'Dicas rubrica B': 'G-CPU-Dicas-Conceito-B-e-A.md'
+#  - 'F - Assembly':
+#    - 'Projeto': 'F-Assembly-Projeto.md'
+#    - 'Dicas': 'F-Assembly-Dicas.md'
+#    - 'Resumo Assembly': 'Util-Resumo-Assembly.md'
+#  - 'E - Lógica Sequencial': 'E-Sequencial-Projeto.md'
+#  - 'D - ULA': 'D-ULA-Projeto.md'
+#  - 'C - Lógica Combinacional': 'C-Logica-Combinacional-Projeto.md'
+#  - 'B-Circuitos-Integrados-Projeto.md'
+  - 'A-Ambiente-Desenvolvimento-Projeto.md'
+
+- Labs:
+#  - 'Resumo': 'Util-Resumo-Labs.md'
+#  - '17: J VM Translator Lab 1': 'J-VMtranslator-Lab-1.md'
+#  - '16: I VM Lab 1': 'I-VM-Lab-1.md'
+#  - '15: H Assembler Lab 1':
+#      - 'H-Assembler-Lab-1.md'
+#      - 'Parte 1': 'H-Assembler-Lab-1-[parte-1].md'
+#      - 'Parte 2': 'H-Assembler-Lab-1-[parte-2].md'
+#      - 'Parte 3': 'H-Assembler-Lab-1-[parte-3].md'
+#      - 'Parte 4': 'H-Assembler-Lab-1-[parte-4].md'
+#      - 'Parte 5': 'H-Assembler-Lab-1-[parte-5].md'
+#  - 'Lab 14 : G CPU Lab 1': 'G-CPU-Lab-1.pdf'
+#  - 'Lab 13 : F Assembly - 3': 'F-Assembly-Lab-3.md'
+#  - 'Lab 12 : F Assembly - 2': 'F-Assembly-Lab-2.md'
+#  - 'Lab 11 : F Assembly - 1': 'F-Assembly-Lab-1.md'
+#  - 'Lab 10 : E Sequencial - 1': 'E-Sequencial-Lab-1.md'
+#  - 'Lab 9 : D ULA - 1': 'D-ULA-Lab-1.md'
+#  - 'Lab 8 : D ULA - 2': 'D-ULA-Lab-2.md'
+#  - 'Lab 6 : C Logica Comb. - 3': 'C-Logica-Combinacional-Lab-3.md'
+#  - 'Lab 5 : C Logica Comb. - 1': 'C-Logica-Combinacional-Lab-1.md'
+#  - 'Lab 3 : B CI': 'B-Circuitos-Integrados-Lab-1.md'
+  - 'A-Transistores-Lab-1.md'
+  - 'A-Ambiente-Lab-2.md'
+  - 'A-Ambiente-Lab-1.md'
+
+- 'Teoria':
+  - 'Teoria-Algebra-Booleana.md'
+  - 'Teoria-RTL.md'
+  - 'Teoria-Componentes.md'
+  - 'Teoria-VHDL-basico.md'
+  - 'Teoria-VHDL-Combinacional.md'
+  - 'Teoria-VHDL-exemplos.md'
+  - 'Vídeo Aulas (Luciano)': 'Util-Video-Aulas.md'
+
+- 'Estudo':
+  - 'Exercicio-Algebra-Booleana-1.md'
+  - 'Exercicio-Algebra-Booleana-2.md'
+
+- 'Aulas':
+    'Aulas': 'Util-Aulas.md'
+
+- Útil:
   - 'Vixi! Sou Scrum Master': 'Util-Vixi!-Sou-Scrum-Master.md'
   - 'Dicas git': 'Util-Dicas-GIT.md'
-  - 'Vídeo Aulas': 'Util-Video-Aulas.md'
-  - 'Infra':
-    - 'Infraestrutura': 'Util-Infraestrutura.md'
   - 'ZO1.1':
     - 'Z01.1 Cheat Sheet': 'Util-Z01.1-Cheat-Sheet.md'
     - 'Instruction Set': 'Util-InstructionSet.md'
     - 'Resumo Assembly': 'Util-Resumo-Assembly.md'
     - 'Resumo VM': 'Util-Resumo-VM.md'
+  - 'Infraestrutura': 'Util-Infraestrutura.md'
 
-- Labs:
-  - 'Resumo': 'Util-Resumo-Labs.md'
-  - '17: J VM Translator Lab 1': 'J-VMtranslator-Lab-1.md'
-  - '16: I VM Lab 1': 'I-VM-Lab-1.md'
-  - '15: H Assembler Lab 1':
-      - 'H-Assembler-Lab-1.md'
-      - 'Parte 1': 'H-Assembler-Lab-1-[parte-1].md'
-      - 'Parte 2': 'H-Assembler-Lab-1-[parte-2].md'
-      - 'Parte 3': 'H-Assembler-Lab-1-[parte-3].md'
-      - 'Parte 4': 'H-Assembler-Lab-1-[parte-4].md'
-      - 'Parte 5': 'H-Assembler-Lab-1-[parte-5].md'
-  - '14: G CPU Lab 1': 'G-CPU-Lab-1.pdf'
-  - '13: F Assembly Lab 3': 'F-Assembly-Lab-3.md'
-  - '12: F Assembly Lab 2': 'F-Assembly-Lab-2.md'
-  - '11: F Assembly Lab 1': 'F-Assembly-Lab-1.md'
-  - '10: E Sequencial Lab 1': 'E-Sequencial-Lab-1.md'
-  - '9 : D ULA Lab 1': 'D-ULA-Lab-1.md'
-  - '8 : D ULA Lab 2': 'D-ULA-Lab-2.md'
-  - '6 : C Logica Comb. Lab 3': 'C-Logica-Combinacional-Lab-3.md'
-  - '7 : C Logica Comb. Lab 2': 'C-Logica-Combinacional-Lab-2.md'
-  - '5 : C Logica Comb. Lab 1': 'C-Logica-Combinacional-Lab-1.md'
-  - '4 : B CI Lab 1': 'B-Circuitos-Integrados-Lab-2.md'
-  - '3 : B CI Lab 2': 'B-Circuitos-Integrados-Lab-1.md'
-  - '2 : A Transistores Lab 1': 'A-Transistores-Lab-1.md'
-  - '1 : A Transistores Lab 2': 'A-Transistores-Lab-2.md'
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+  - 'translate_admonitions.js'
 
-- 'Projetos':
-  - 'Util-Resumo-Projetos.md'
-  - 'X - Mundo real': 'X-Processadores-Projeto.md'
-  - 'J - VM Translator':
-    - 'Projeto': 'J-VMtranslator-Projeto.md'
-    - 'VM Função': 'J-VMtranslator-memoria.md'
-  - 'I - VM':
-    - 'Projeto': 'I-VM-Projeto.md'
-    - 'VM Linguagem': 'Util-Resumo-VM.md'
-    - 'VM Memória': 'I-VM-Ferramental-Memoria.md'
-  - 'H - Assembler':
-    - 'Projeto': 'H-Assembler-Projeto.md'
-    - 'Prerequisitos': 'H-Assembler-Prerequisitos.md'
-    - 'Testando': 'H-Assembler-Testando.md'
-    - 'Dicas SymbolTable': 'H-Assembler-Dicas-SymbolTable.md'
-    - 'Dicas Macro': 'H-Assembler-Dicas-Macro.md'
-  - 'G - CPU':
-    - 'CPU Projeto': 'G-CPU-Projeto.md'
-    - 'Dicas testando': 'G-CPU-Testando.md'
-    - 'Dicas rubrica B': 'G-CPU-Dicas-Conceito-B-e-A.md'
-  - 'F - Assembly':
-    - 'Projeto': 'F-Assembly-Projeto.md'
-    - 'Dicas': 'F-Assembly-Dicas.md'
-    - 'Resumo Assembly': 'Util-Resumo-Assembly.md'
-  - 'E - Lógica Sequencial':
-    - 'Projeto': 'E-Sequencial-Projeto.md'
-  - 'D - ULA':
-    - 'Projeto': 'D-ULA-Projeto.md'
-  - 'C - Lógica Combinacional':
-    - 'Projeto': 'C-Logica-Combinacional-Projeto.md'
-  - 'B - Circuitos Integrados': 'B-Circuitos-Integrados-Projeto.md'
-  - 'A - Transistores': 'A-Transistores-Projeto.md'
-
-- 'Aulas':
-    'Aulas': 'Util-Aulas.md'
+extra_css:
+  - css/printing.css
 
 # Extensions
 markdown_extensions:
+  - markdown.extensions.attr_list
   - markdown.extensions.admonition
   - markdown.extensions.codehilite:
       guess_lang: false

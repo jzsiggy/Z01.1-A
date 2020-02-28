@@ -12,36 +12,6 @@ Essa lista descreve os principais componentes digitais utilizados em projetos di
 - nor
 - xor
 
-## Tri-state ##
-
-![](https://upload.wikimedia.org/wikipedia/commons/c/c0/Tristate_buffer.svg)
-
-> [fonte wikipedia](https://en.wikipedia.org/wiki/Three-state_logic): A tristate buffer can be thought of as a switch. If B is on, the switch is closed. If B is off, the switch is open.
-
-```vhdl
-    entity tri_state is
-      port(
-            a   : in  std_logic;
-            b   : in  std_logic;
-            c   : out std_logic
-      );
-    end entity;
-```
-
-Com um tri-state buffer é possível se ter os estados 0, 1 e Z (alta impedância), o estado Z permite desconectar o sinal do resto do circuito,  a intenção é permitir que sinais de outros circuitos sejam compartilhados pelo mesmo barramento de dados, sem que haja interferência entre esses sinais.
-
-A entrada `a` pode assumir 0 e 1, enquanto a saída `c` irá receber esse sinal caso a entrada `b` esteja em 1, caso contrário, o estado será Z.
-
-A seguir uma tabela verdade para um `tri-state`:
-
-| a                | b               |     c |
-| ---------------- | --------------- | ----- |
-| 0                | 0               |     Z |
-| 0                | 1               |     0 |
-| 1                | 0               |     Z |
-| 1                | 1               |     1 |
-
-
 ## Multiplexado (mux)
 
 ![](https://upload.wikimedia.org/wikipedia/commons/b/b2/Multiplexer2.png)
