@@ -5,10 +5,13 @@ entity circuito is
 	port (
     A,B,C : in  STD_LOGIC;
     x     : out STD_LOGIC);
+
 end entity;
 
 architecture arch of circuito is
-
 begin
+	x <= A and B and (not (C));
+
 
 end architecture;
+
