@@ -8,12 +8,12 @@
 #                                    #
 ######################################
 
-nand.vhd
-#Or16.vhd            
+#nand.vhd
+Or16.vhd            
 #Nor8Way.vhd
 #And16.vhd
-#Not16.vhd
-#Or8Way.vhd
+Not16.vhd
+Or8Way.vhd
 #DMux2Way.vhd
 #DMux4Way.vhd
 #DMux8Way.vhd
@@ -27,4 +27,4 @@ nand.vhd
 #circuito.vhd    
 #detectorDeMoedas.vhd
 #impressora.vhd
-#sevenSeg.vhd
+sevenSeg.vhd
