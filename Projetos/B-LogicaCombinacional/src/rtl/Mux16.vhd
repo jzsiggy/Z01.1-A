@@ -14,5 +14,8 @@ begin
 	q<= a when sel ='0' else
 		b;
 
+	q <= a when (sel = '0') else
+		b;
+
 
 end architecture;
