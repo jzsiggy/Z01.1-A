@@ -19,9 +19,12 @@ architecture rtl of HalfAdder is
   -- e componentes (outros módulos) que serao
   -- utilizados nesse modulo.
 
+
 begin
   -- Implementação vem aqui!
-  u1: HalfAdder port map(a => SW(0), b => SW(1), soma => LEDR(0), vaium => LEDR(1));
+  --u1: HalfAdder port map(a => SW(0), b => SW(1), soma => LEDR(0), vaium => LEDR(1));
+  soma <= a xor b;
+  vaium <= a and b;
 
 
 end rtl;
