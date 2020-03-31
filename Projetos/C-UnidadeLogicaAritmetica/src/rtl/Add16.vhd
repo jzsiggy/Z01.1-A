@@ -29,6 +29,11 @@ architecture rtl of Add16 is
   end component;
 
 begin
-  -- Implementação vem aqui!
+		u1 : work.FullAdder port map(a => a,
+										 b => b,
+										 c => open,
+										 soma => q,
+										 vaium => open);
 
+  
 end architecture;
