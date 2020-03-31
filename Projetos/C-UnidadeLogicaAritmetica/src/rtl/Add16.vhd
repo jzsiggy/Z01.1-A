@@ -116,5 +116,4 @@ begin
 									 soma => q(15),
 									 vaium => open);	
 
-  
 end architecture;
