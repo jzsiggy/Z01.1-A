@@ -11,7 +11,7 @@ entity inversor16 is
         a   : in STD_LOGIC_VECTOR(15 downto 0);
         y   : out STD_LOGIC_VECTOR(15 downto 0)
       );
-end entity;
+end entity;  
 
 architecture rtl of inversor16 is
   -- Aqui declaramos sinais (fios auxiliares)
@@ -19,6 +19,9 @@ architecture rtl of inversor16 is
   -- utilizados nesse modulo.
 
 begin
-  -- Implementação vem aqui!
+  
+
+    y<= not a when z= '1'  else
+         a;
 
 end architecture;
