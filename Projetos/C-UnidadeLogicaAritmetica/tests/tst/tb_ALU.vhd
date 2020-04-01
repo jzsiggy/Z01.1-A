@@ -171,11 +171,23 @@ begin
       assert(outZR = '0' and outNG = '1' and outSaida= "1111111111111111")  report "Falha em teste: 19" severity error;
 
       --Teste: 20
-      inX <= "0000000000000000"; inY <= "1111111111111111"; 
-      inZX <= '0'; inNX <= '1'; inZY <= '0'; inNY <= '1'; inF <= "00"; inNO <= '1';
-      wait for 200 ps;
-      assert(outZR = '0' and outNG = '1' and outSaida= "1111111111111111")  report "Falha em teste: 20" severity error;
+      --inX <= "0000000000000000"; inY <= "1111111111111111"; 
+      --inZX <= '0'; inNX <= '1'; inZY <= '0'; inNY <= '1'; inF <= "00"; inNO <= '1';
+      --wait for 200 ps;
+      --assert(outZR = '0' and outNG = '1' and outSaida= "1111111111111111")  report "Falha em teste: 20" severity error;
 
+      --Teste: 21
+      inX <= "0000000000000101"; inY <= "1111111111111111";
+      inZX <= '0'; inNX <= '0'; inZY <= '0'; inNY <= '0'; inF <= "10"; inNO <= '0';
+      wait for 100 ps;
+      assert(outZR = '0' and outNG = '0' and outSaida= "0000000000001010")  report "Falha em teste: 21" severity error;
+
+      -- Teste: 22 - Testa 6 * 2 = 3
+      inX <= "0000000000000110"; inY <= "1111111111111111";
+      inZX <= '0'; inNX <= '0'; inZY <= '0'; inNY <= '0'; inF <= "11"; inNO <= '0';
+      wait for 100 ps;
+      assert(outZR = '0' and outNG = '0' and outSaida= "0000000000000011")  report "Falha em teste: 22" severity error;
+      
     test_runner_cleanup(runner); -- Simulacao acaba aqui
 
   end process;
