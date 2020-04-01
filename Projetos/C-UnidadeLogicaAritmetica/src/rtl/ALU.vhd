@@ -98,21 +98,7 @@ architecture  rtl OF alu is
 		);
 	end component;
 
-	component leftShift is
-		port(
-		a    : in STD_LOGIC_VECTOR(15 downto 0);
-        q    : out STD_LOGIC_VECTOR(15 downto 0) 
-		);
-	end component;	
-
-	component rightShift is
-		port(
-		a    : in STD_LOGIC_VECTOR(15 downto 0);
-        q    : out STD_LOGIC_VECTOR(15 downto 0) 
-		);
-	end component;
-
-   SIGNAL zxout,zyout,nxout,nyout,andout,adderout,leftout,rightout,muxout,precomp, xorxy: std_logic_vector(15 downto 0);
+   SIGNAL zxout,zyout,nxout,nyout,andout,adderout,muxout,precomp, xorxy: std_logic_vector(15 downto 0);
 
 begin
   -- Implementação vem aqui!
@@ -146,8 +132,8 @@ begin
 
   MUX : Mux16 port map(a => andout,
 						b => adderout,
-						c => rightout,
-						d => leftout,
+						c => xorxy,
+						d => "0000000000000000",
 						sel => f,
 						q => muxout);
 
@@ -158,12 +144,6 @@ begin
   COMP : comparador16 port map(a => precomp,
 						zr => zr,
 						ng => ng);
-
-  RIGHT : rightShift port map(a =>nxout,
-						q => rightout);
-
-  LEFT : leftShift port map(a =>nxout,
-						q => leftout);
  
   saida <= precomp;
 
