@@ -28,6 +28,7 @@ class tstLogiSeq(object):
 
     def addSrc(self, work):
         work.addSrc(self.rtl)
+        work.addSrc(self.rtl+'conceitoA/')
 
     def addTst(self, work):
         if work.addTstConfigFile(self.tst) is False:
