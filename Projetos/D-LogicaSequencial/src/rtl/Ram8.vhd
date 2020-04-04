@@ -59,5 +59,16 @@ architecture arch of Ram8 is
 
 begin
 
-
+	
+	REGISTRA1: Register16 port map(clock,input(15 downto 0),load0,output0(15 downto 0));
+	REGISTRA2: Register16 port map(clock,input(15 downto 0),load1,output1(15 downto 0));
+	REGISTRA3: Register16 port map(clock,input(15 downto 0),load2,output2(15 downto 0));
+	REGISTRA4: Register16 port map(clock,input(15 downto 0),load3,output3(15 downto 0));
+	REGISTRA5: Register16 port map(clock,input(15 downto 0),load4,output4(15 downto 0));
+	REGISTRA6: Register16 port map(clock,input(15 downto 0),load5,output5(15 downto 0));
+	REGISTRA7: Register16 port map(clock,input(15 downto 0),load6,output6(15 downto 0));
+	REGISTRA8: Register16 port map(clock,input(15 downto 0),load7,output7(15 downto 0));
+	MUX: Mux8Way16 port map(output0,output1,output2,output3,output4,output5,output6,output7,address,output);
+	DMUX: DMux8Way port map(load,address,load0,load1,load2,load3,load4,load5,load6,load7);
+	
 end architecture;
