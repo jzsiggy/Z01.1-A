@@ -60,5 +60,16 @@ architecture arch of Ram64 is
 
 begin
 
+	REGISTRA1: Ram8 port map(clock,input(15 downto 0),load0,output0(15 downto 0));
+	REGISTRA2: Ram8 port map(clock,input(23 downto 16),load1,output1(23 downto 16));
+	REGISTRA3: Ram8 port map(clock,input(31 downto 24),load2,output2(31 downto 24));
+	REGISTRA4: Ram8 port map(clock,input(39 downto 32),load3,output3(39 downto 32));
+	REGISTRA5: Ram8 port map(clock,input(47 downto 40),load4,output4(47 downto 40));
+	REGISTRA6: Ram8 port map(clock,input(55 downto 48),load5,output5(55 downto 48));
+	REGISTRA7: Ram8 port map(clock,input(63 downto 56),load6,output6(63 downto 56));
+	REGISTRA8: Ram8 port map(clock,input(71 downto 64),load7,output7(71 downto 64));
+	MUX: Mux8Way16 port map(output0,output1,output2,output3,output4,output5,output6,output7,address,output);
+	DMUX: DMux8Way port map(load,address,load0,load1,load2,load3,load4,load5,load6,load7);
+
 
 end architecture;
