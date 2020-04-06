@@ -17,4 +17,14 @@ architecture arch of FlipFlopT is
 
 begin
 
+	process(clock, t) begin
+		
+		if (t = '1') then
+			notq <= '1';
+		elsif (t = '0') then
+			q <= '0';
+		end if;
+
+	end process;
+
 end architecture;
