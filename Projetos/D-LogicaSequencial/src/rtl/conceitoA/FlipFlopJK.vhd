@@ -17,5 +17,19 @@ end entity;
 architecture arch of FlipFlopJK is
 
 begin
+	
+	process(clock, J, K) begin
+		
+		if (J = '1' and K = '1') then
+			notq <= '1';
+		elsif (J = '0' and K = '1') then
+			q <= '0';
+		elsif (J = '0' and K = '0') then
+			q <= '0';
+		elsif (J = '1' and K = '0') then
+			q <= '1';
+		end if;
+
+	end process;
 
 end architecture;
