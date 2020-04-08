@@ -43,7 +43,6 @@ architecture arch of PC is
           );
   end component;
 
-<<<<<<< HEAD
  
 
  component Mux2Way16 is
@@ -67,16 +66,6 @@ architecture arch of PC is
    end component;
 
    SIGNAL pcout, incout, muxincout, muxloadout, muxresetout: STD_LOGIC_VECTOR (15 downto 0):= "0000000000000000";
-=======
-  component Register16 is
-      port(
-          clock:   in STD_LOGIC;
-          input:   in STD_LOGIC_VECTOR(15 downto 0);
-          load:    in STD_LOGIC;
-          output: out STD_LOGIC_VECTOR(15 downto 0)
-        );
-    end component;
->>>>>>> upstream/master
 
 begin
 
