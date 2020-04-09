@@ -37,7 +37,24 @@ begin
     test_runner_setup(runner, runner_cfg);
 
     -- IMPLEMENTE AQUI!
+    j <= '0'; k <= '0';
     wait until clk'event and clk='0';
+    assert(q = q)  report "Falha em teste: 0" severity error;
+
+    j <= '0'; k <= '1';
+    wait until clk'event and clk='0';
+    assert(q = '0')  report "Falha em teste: 0" severity error;
+
+
+    j <= '1'; k <= '0';
+    wait until clk'event and clk='0';
+    assert(q = '1')  report "Falha em teste: 0" severity error;
+
+
+    j <= '1'; k <= '1';
+    wait until clk'event and clk='0';
+    assert(q = notq)  report "Falha em teste: 0" severity error;
+
 
     -- finish
     wait until clk'event and clk='0';
