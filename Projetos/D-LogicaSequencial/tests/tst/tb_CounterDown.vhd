@@ -21,11 +21,11 @@ architecture tb of tb_CounterDown is
 	end component;
 
 	signal clk : std_logic := '0';
-  signal q   : std_logic_vector(2 downto 0);
+  signal outQ   : std_logic_vector(2 downto 0);
 
 begin
 
-	mapping: CounterDown port map(clk, q);
+	mapping: CounterDown port map(clk, outQ);
 
 	clk <= not clk after 100 ps;
 
@@ -34,8 +34,10 @@ begin
     test_runner_setup(runner, runner_cfg);
 
     -- IMPLEMENTE AQUI!
+    outQ <= "111";
     wait until clk'event and clk='0';
-		assert(Q = "111")  report "Precisa fazer os testes" severity error;
+		assert(outQ = "111")  report "Falha em teste: 0" severity error;
+
 
 
     -- finish
