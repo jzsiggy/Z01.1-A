@@ -21,11 +21,11 @@ architecture tb of tb_CounterDown is
 	end component;
 
 	signal clk : std_logic := '0';
-  signal outQ   : std_logic_vector(2 downto 0);
+  signal q   : std_logic_vector(2 downto 0);
 
 begin
 
-	mapping: CounterDown port map(clk, outQ);
+	mapping: CounterDown port map(clk, q);
 
 	clk <= not clk after 100 ps;
 
@@ -33,38 +33,32 @@ begin
   begin
     test_runner_setup(runner, runner_cfg);
 
-    -- IMPLEMENTE AQUI!
-    q <= "111";
+    -- TESTE 1
     wait until clk'event and clk='0';
-		assert(q = "110")  report "Falha em teste: 0" severity error;
+		assert(Q = "111")  report "Falha em teste 1" severity error;
+    -- TESTE 2
+    wait until clk'event and clk='0';
+		assert(Q = "110")  report "Falha em teste 2" severity error;
+    -- TESTE 3
+    wait until clk'event and clk='0';
+		assert(Q = "101")  report "Falha em teste 3" severity error;
+    -- TESTE 4
+    wait until clk'event and clk='0';
+		assert(Q = "100")  report "Falha em teste 4" severity error;
+    -- TESTE 5
+    wait until clk'event and clk='0';
+		assert(Q = "011")  report "Falha em teste 5" severity error;
+    -- TESTE 6
+    wait until clk'event and clk='0';
+    assert(Q = "010")  report "Falha em teste 6" severity error;
+    -- TESTE 7
+    wait until clk'event and clk='0';
+    assert(Q = "001")  report "Falha em teste 7" severity error;
+    -- TESTE 8
+    wait until clk'event and clk='0';
+    assert(Q = "000")  report "Falha em teste 8" severity error;
+    
 
-    q <= "110";
-    wait until clk'event and clk='0';
-		assert(q = "101")  report "Falha em teste: 0" severity error;
-
-    q <= "101";
-    wait until clk'event and clk='0';
-		assert(q = "100")  report "Falha em teste: 0" severity error;
-
-    q <= "100";
-    wait until clk'event and clk='0';
-		assert(q = "011")  report "Falha em teste: 0" severity error;
-
-    q <= "011";
-    wait until clk'event and clk='0';
-		assert(q = "010")  report "Falha em teste: 0" severity error;
-
-    q <= "010";
-    wait until clk'event and clk='0';
-		assert(q = "001")  report "Falha em teste: 0" severity error;
-
-    q <= "001";
-    wait until clk'event and clk='0';
-		assert(q = "000")  report "Falha em teste: 0" severity error;
-
-    q <= "000";
-    wait until clk'event and clk='0';
-		assert(q = "111")  report "Falha em teste: 0" severity error;
 
     -- finish
     wait until clk'event and clk='0';

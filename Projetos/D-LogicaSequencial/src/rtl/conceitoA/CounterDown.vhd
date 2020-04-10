@@ -13,27 +13,37 @@ end entity;
 
 architecture arch of CounterDown is
 
-begin
-	process (clock) begin
+	signal que: std_logic_vector(2 downto 0) := "000";
 
-		if (q = "000") then
-			q <= "111";
-		elsif (q = "111") then
-			q <= "110";
-		elsif (q = "110") then
-			q <= "101";
-		elsif (q = "101") then
-			q <= "100";
-		elsif (q = "100") then
-			q <= "011";
-		elsif (q = "011") then
-			q <= "010";
-		elsif (q = "010") then
-			q <= "001";
-		elsif (q = "001") then
-			q <= "000";
+begin
+	process(clock)
+		begin
+
+		if (rising_edge(clock)) then
+
+				if (que="111") then		
+					que <= "110";	
+				elsif (que="110") then	
+					que <= "101";	
+				elsif (que="101") then	
+					que <= "100";	
+				elsif (que="100") then	
+					que <= "011";	
+				elsif (que="011") then	
+					que <= "010";	
+				elsif (que="010") then	
+					que <= "001";	
+				elsif (que="001") then	
+					que <= "000";	
+				elsif (que="000") then	
+					que <= "111";	
+
+				end if;
+
 		end if;
 
 	end process;
+
+	q <= que;
 
 end architecture;
