@@ -86,7 +86,7 @@ architecture  rtl OF alu is
     );
 	end component;
 
-	component Mux16 is
+	component Mux4Way16 is
 		port (
 
 			a:   in  STD_LOGIC_VECTOR(15 downto 0);
@@ -144,7 +144,7 @@ begin
 
   xorxy <= nxout xor nyout; 
 
-  MUX : Mux16 port map(a => andout,
+  MUX : Mux4Way16 port map(a => andout,
 						b => adderout,
 						c => rightout,
 						d => leftout,
