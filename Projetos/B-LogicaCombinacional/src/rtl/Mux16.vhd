@@ -5,20 +5,13 @@ entity Mux16 is
 	port ( 
 			a:   in  STD_LOGIC_VECTOR(15 downto 0);
 			b:   in  STD_LOGIC_VECTOR(15 downto 0);
-			c:   in  STD_LOGIC_VECTOR(15 downto 0);
-			d:   in  STD_LOGIC_VECTOR(15 downto 0);
-			sel: in  STD_LOGIC_VECTOR(1 downto 0);
+			sel: in  STD_LOGIC;
 			q:   out STD_LOGIC_VECTOR(15 downto 0));
 end entity;
 
 architecture arch of Mux16 is
 begin
-	
-	with sel select
-	q <= a when "00",
-		b when "01",
-		c when "11",
-		d when others;
-
+	q 	<=	a when sel='0' else
+			b when sel='1';
 
 end architecture;
