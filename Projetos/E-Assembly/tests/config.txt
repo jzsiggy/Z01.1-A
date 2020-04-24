@@ -4,15 +4,15 @@
 ##########################
 # exemplos
 ##########################
-R-LCD.nasm 1 4000
+#R-LCD.nasm 1 4000
 
 ##########################
 # conceito C
 ##########################
 
-add.nasm 1 1000
+#add.nasm 1 1000
 #sub.nasm 1 1000
-#mov.nasm 1 1000
+mov.nasm 1 1000
 #max.nasm 2 10000
 #abs.nasm 2 1000
 #isEven.nasm 2 1000
