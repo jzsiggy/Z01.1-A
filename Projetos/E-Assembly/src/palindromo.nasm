@@ -18,6 +18,33 @@
 ;  RAM[12] = a
 ;  RAM[13] = r
 ;  RAM[14] = a
-; 
 
+leaw $10, %A
+movw (%A), %D
+leaw $14, %A
+subw %D, (%A), %D
+leaw $NAO, %A
+jne %D
+nop
+leaw $11, %A
+movw (%A), %D
+leaw $13, %A
+subw %D, (%A), %D
+leaw $NAO, %A
+jne %D
+nop
+SIM: 
+leaw $1, %A
+movw %A, %D
+leaw $0, %A
+movw %D, (%A)
+leaw $FIM, %A
+jmp
+nop
  
+NAO:
+leaw $0, %A
+movw %A, %D
+movw %D, (%A)
+
+FIM:
