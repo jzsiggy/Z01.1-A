@@ -27,3 +27,43 @@
 ;  RAM[15] = NULL = 0x0000
 
 
+leaw $8, %A ; A=8
+movw %A, %D ; D=A=8
+leaw $1, %A ; A=1
+movw %D, (%A) ;RAM[1]=D=8
+
+
+leaw $0, %A ; A=0
+movw $0,(%A) ; RAM[0]=0
+
+
+LOOP:
+leaw $0, %A ; A=0
+movw (%A), %D ; D=RAM[0]
+addw $1, %D, (%A)  ;RAM[0]=RAM[0]+1
+
+
+leaw $1, %A ;A=1
+movw (%A), %D ; D=RAM[1]
+addw $1, %D, (%A) ; RAM[1]=RAM[1]+1
+movw (%A), %D ; D=RAM[1]
+
+
+movw %D,%A ; A=D=RAM[1]
+movw (%A), %D ; D=RAM[A]
+
+leaw $LOOP, %A ; if A!=0 repeat
+jne %D
+nop
+
+
+leaw $8, %A ; A=8
+movw (%A), %D ;D=RAM[8]
+leaw $TCHAU, %A 
+jne %D ; if D!= end
+nop
+
+leaw $0, %A 
+movw $0, (%A) ; RAM[0]=0
+
+TCHAU:
