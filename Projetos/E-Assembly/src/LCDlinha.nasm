@@ -11,3 +11,5 @@ leaw $18790,%A
 movw $-1, (%A)
 leaw $18791,%A
 movw $-1, (%A)
+leaw $18792,%A
+movw $-1, (%A)
