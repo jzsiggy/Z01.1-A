@@ -8,3 +8,33 @@
 ;
 ; 4  % 3 = 1
 ; 10 % 7 = 3
+
+DO:
+    leaw $0, %A
+    movw (%A), %D
+    leaw $1, %A
+
+    subw %D, (%A), %D
+    leaw $BREAK, %A
+    jl %D
+    nop
+
+    leaw $SETZERO, %A
+    je %D
+    nop
+
+    leaw $2, %A
+    movw %D, (%A)
+
+    leaw $0, %A
+    movw %D, (%A)
+
+    leaw $DO, %A
+    jmp
+    nop
+
+SETZERO:
+    leaw $2, %A
+    movw $0, (%A)
+
+BREAK:
