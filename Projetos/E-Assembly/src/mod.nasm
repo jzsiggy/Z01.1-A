@@ -9,35 +9,32 @@
 ; 4  % 3 = 1
 ; 10 % 7 = 3
 
-leaw $2, %A
-movw (%A), %D
- 
-while:
- 
-leaw $5, %A
-movw %D, (%A)
- 
-leaw $1, %A
-movw (%A), %D
- 
-leaw $1, %A
-subw (%A), %D, %D
- 
-leaw $1, %A
-movw %D, (%A)
- 
-leaw $end, %A
-je %D
-nop
-jle %D
-nop
- 
-leaw $while, %A
-jmp
-nop
- 
-end:
-leaw $5, %A
-movw (%A), %D
-leaw $0, %A
-movw %D, (%A)
+DO:
+    leaw $0, %A
+    movw (%A), %D
+    leaw $1, %A
+
+    subw %D, (%A), %D
+    leaw $BREAK, %A
+    jl %D
+    nop
+
+    leaw $SETZERO, %A
+    je %D
+    nop
+
+    leaw $2, %A
+    movw %D, (%A)
+
+    leaw $0, %A
+    movw %D, (%A)
+
+    leaw $DO, %A
+    jmp
+    nop
+
+SETZERO:
+    leaw $2, %A
+    movw $0, (%A)
+
+BREAK:
