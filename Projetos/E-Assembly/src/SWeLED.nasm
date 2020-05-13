@@ -19,9 +19,9 @@ movw %D, (%A)
 leaw $21185, %A
 movw (%A), %D
 notw %D
-leaw $4, %A
+leaw $14, %A
 andw %A, %D, %D
-leaw $0, %A
+leaw $0, %A 
 movw (%A), %A
 orw %A, %D, %D
 leaw $21184, %A
