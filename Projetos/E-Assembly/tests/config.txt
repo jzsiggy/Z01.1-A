@@ -33,3 +33,11 @@ LCDlinha.nasm 0 10000
 #palindromo.nasm 2 1000
 #LCDnomeGrupo.nasm 0 10000
 
+###########################
+## conceito A
+###########################
+
+vectorMean.nasm  2000
+SWeLED2.nasm 1 1000
+
+
