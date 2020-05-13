@@ -4,7 +4,7 @@
 ##########################
 # exemplos
 ##########################
-R-LCD.nasm 0 4000
+#R-LCD.nasm 0 4000
 
 ##########################
 # conceito C
@@ -19,7 +19,7 @@ R-LCD.nasm 0 4000
 #mod.nasm 2 10000
 #div.nasm  2 10000
 #pow.nasm 2 10000
-factorial.nasm 2 10000
+#factorial.nasm 2 10000
 #stringLength.nasm 2 2000
 SWeLED.nasm 1 1000
 #LCDlinha.nasm 0 10000
@@ -37,7 +37,7 @@ SWeLED.nasm 1 1000
 ## conceito A
 ###########################
 
-vectorMean.nasm  2000
+#vectorMean.nasm  2000
 SWeLED2.nasm 1 1000
 
 
