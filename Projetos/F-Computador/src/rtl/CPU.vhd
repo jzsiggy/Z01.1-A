@@ -54,7 +54,7 @@ architecture arch of CPU is
       );
   end component;
 
-  component pc is
+  component PC is
     port(
       clock     : in  STD_LOGIC;
       increment : in  STD_LOGIC;
@@ -99,5 +99,25 @@ architecture arch of CPU is
   signal s_pcout: STD_LOGIC_VECTOR(15 downto 0);
 
 begin
+
+  pc: PC port map (clock, inc, c_loadPC, reset, input, s_pcout(15 downto 0));
+  
+  muxalui: Mux16 port map (a,b,sel, s_muxALUI_Aout);
+  
+  muxam: Mux16 port map (a,b,sel, s_muxAM_out);
+  
+  regA: Register16 port map(clock, input, load, s_regAout);
+  
+  regD: Register16 port map(clock, s_ALUout, load, s_regDout);
+
+  ula: ALU port map(s_regDout, s_muxAM_out, c_zx, c_nx, c_zy, c_ny, c_f, c_no, c_zr, c_ng, s_ALUout);
+
+  controlUnit: ControlUnit port map(instruction, c_zr, c_ng, c_muxALUI_A, c_muxAM, c_zx, c_nx, c_zy, c_ny, c_f, c_no, c_loadA, c_loadD, loadM, c_loadPC);
+
+
+  outM <= 
+  addressM <= 
+  writeM <= 
+  pcout <= 
 
 end architecture;
