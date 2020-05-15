@@ -26,7 +26,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity ALU_a is
+entity ALU is
 	port (
 			x,y:   in STD_LOGIC_VECTOR(15 downto 0); -- entradas de dados da ALU_a
 			zx:    in STD_LOGIC;                     -- zera a entrada x
