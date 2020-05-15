@@ -1236,7 +1236,7 @@ movw $-1, (%A)
 
 ;Linha horizontal #3
 leaw $17016, %A
-smovw $-1, (%A)
+movw $-1, (%A)
 
 
 
