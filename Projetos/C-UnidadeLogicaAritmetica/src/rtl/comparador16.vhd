@@ -14,24 +14,12 @@ entity comparador16 is
 end comparador16;
 
 architecture rtl of comparador16 is
-  -- Aqui declaramos sinais (fios auxiliares)
-  -- e componentes (outros módulos) que serao
-  -- utilizados nesse modulo.
-
 begin
-	process(a, zr, ng)
-		begin
-		if(a = "0000000000000000") then
-		  zr <= '1';
-		else
-		  zr <= '0';
-		end if;
-		  
-		  
-		if (a(15) = '1') then
-		  ng <= '1';
-		else
-		  ng <= '0';
-		end if;
-	end process;
+   zr <= not ( a( 0) or a( 1) or a( 2) or a( 3) or
+	            a( 4) or a( 5) or a( 6) or a( 7) or
+	            a( 8) or a( 9) or a(10) or a(11) or
+	            a(12) or a(13) or a(14) or a(15) );
+
+   ng <= a(15);
+
 end architecture;
