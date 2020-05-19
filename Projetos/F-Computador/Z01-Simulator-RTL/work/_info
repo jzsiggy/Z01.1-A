@@ -9,7 +9,7 @@ z2
 cModel Technology
 d/home/corsi/Dropbox/Insper/3s-ElementoDeSistemas/5-Repositorios/Z01.1-priv/Projetos/src/G-Computador/Z01-Simulator-RTL
 Eadd16
-Z0 w1586120122
+Z0 w1589543320
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 Z3 d/home/borg/Documents/Insper/Z01.1-A/Projetos/F-Computador/Z01-Simulator-RTL
@@ -17,13 +17,13 @@ Z4 8../../C-UnidadeLogicaAritmetica/src/rtl/Add16.vhd
 Z5 F../../C-UnidadeLogicaAritmetica/src/rtl/Add16.vhd
 l0
 L11
-VFZEcbjkW52kXjl`=XdS6>3
-!s100 FZL>Ol5DRPF_LWLmT<l`o1
+V756he=zhY6CI=Dn@ki6kU2
+!s100 SiSIIDRe2L<Y`4Mn=<Q<i1
 Z6 OV;C;10.5b;63
 32
-Z7 !s110 1589542516
+Z7 !s110 1589543959
 !i10b 1
-Z8 !s108 1589542516.000000
+Z8 !s108 1589543959.000000
 Z9 !s90 -reportprogress|300|-work|work|../../C-UnidadeLogicaAritmetica/src/rtl/ALU.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/Add16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/FullAdder.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/HalfAdder.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/Inc16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/comparador16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/inversor16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/leftShift.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/rightShift.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/zerador16.vhd|
 Z10 !s107 ../../C-UnidadeLogicaAritmetica/src/rtl/zerador16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/rightShift.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/leftShift.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/inversor16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/comparador16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/Inc16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/HalfAdder.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/FullAdder.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/Add16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/ALU.vhd|
 !i113 1
@@ -32,11 +32,11 @@ Z12 tExplicit 1 CvgOpt 0
 Artl
 R1
 R2
-Z13 DEx4 work 5 add16 0 22 FZEcbjkW52kXjl`=XdS6>3
-l35
-L20
-Z14 VfN]7<7IiSzi`4]YDNBfd:0
-Z15 !s100 NeS`0KK]T[3>=;G`]_k==0
+DEx4 work 5 add16 0 22 756he=zhY6CI=Dn@ki6kU2
+l30
+L19
+V20OIdZ?80S:PzFljn<=A60
+!s100 Fg:aen`@LfPh7j8=[O9F_1
 R6
 32
 R7
@@ -48,16 +48,16 @@ R10
 R11
 R12
 Ealu
-Z16 w1587576913
+R0
 R1
 R2
 R3
-Z17 8../../C-UnidadeLogicaAritmetica/src/rtl/ALU.vhd
-Z18 F../../C-UnidadeLogicaAritmetica/src/rtl/ALU.vhd
+Z13 8../../C-UnidadeLogicaAritmetica/src/rtl/ALU.vhd
+Z14 F../../C-UnidadeLogicaAritmetica/src/rtl/ALU.vhd
 l0
 L29
-V1K2PD1jo]`7];d@?cScEi2
-!s100 [44?S00i?`6SX5Xd>=P;d1
+VebIVm0RVP8XP<3CahQgZ;1
+!s100 ;H:E>8hji@:aE]F93AJU@0
 R6
 32
 R7
@@ -71,11 +71,11 @@ R12
 Artl
 R1
 R2
-Z19 DEx4 work 3 alu 0 22 1K2PD1jo]`7];d@?cScEi2
-l117
-L45
-Z20 V^G5<RD:n_DUz?48<k]<IY1
-Z21 !s100 Vb?@5=gLD=8gO3UndP[KH3
+DEx4 work 3 alu 0 22 ebIVm0RVP8XP<3CahQgZ;1
+l95
+L44
+Vfh;Cd<]LakHGZmaGa;c120
+!s100 ^ML`Z=>lncAbI<VeNhKUn3
 R6
 32
 R7
@@ -90,30 +90,30 @@ Ealu_a
 w1585081629
 R1
 R2
-Z22 d/home/corsi/work/Z01/Z01.1-priv-2020a/Projetos/F-Computador/Z01-Simulator-RTL
-R17
-R18
+Z15 d/home/corsi/work/Z01/Z01.1-priv-2020a/Projetos/F-Computador/Z01-Simulator-RTL
+R13
+R14
 l0
 L29
 V3V[LNz_74]THL7I0LYDkm1
 !s100 Zd=`dgo;;2C2I9Ia1D=Mi0
 R6
 32
-Z23 !s110 1587517015
+Z16 !s110 1587517015
 !i10b 1
-Z24 !s108 1587517015.000000
-Z25 !s90 -reportprogress|300|-work|work|../../C-UnidadeLogicaAritmetica/src/rtl/ALU.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/Add16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/FullAdder.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/HalfAdder.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/Inc16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/comparador16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/inversor16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/zerador16.vhd|
-Z26 !s107 ../../C-UnidadeLogicaAritmetica/src/rtl/zerador16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/inversor16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/comparador16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/Inc16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/HalfAdder.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/FullAdder.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/Add16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/ALU.vhd|
+Z17 !s108 1587517015.000000
+!s90 -reportprogress|300|-work|work|../../C-UnidadeLogicaAritmetica/src/rtl/ALU.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/Add16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/FullAdder.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/HalfAdder.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/Inc16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/comparador16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/inversor16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/zerador16.vhd|
+!s107 ../../C-UnidadeLogicaAritmetica/src/rtl/zerador16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/inversor16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/comparador16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/Inc16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/HalfAdder.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/FullAdder.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/Add16.vhd|../../C-UnidadeLogicaAritmetica/src/rtl/ALU.vhd|
 !i113 1
 R11
 R12
 Eand16
-R0
+Z18 w1586120122
 R1
 R2
 R3
-Z27 8../../B-LogicaCombinacional/src/rtl/And16.vhd
-Z28 F../../B-LogicaCombinacional/src/rtl/And16.vhd
+Z19 8../../B-LogicaCombinacional/src/rtl/And16.vhd
+Z20 F../../B-LogicaCombinacional/src/rtl/And16.vhd
 l0
 L4
 VOSgY;E1cez2B^C9ZD6]7U0
@@ -122,9 +122,9 @@ R6
 32
 R7
 !i10b 1
-R8
-Z29 !s90 -reportprogress|300|-work|work|../../B-LogicaCombinacional/src/rtl/And16.vhd|../../B-LogicaCombinacional/src/rtl/BarrelShifter16.vhd|../../B-LogicaCombinacional/src/rtl/DMux2Way.vhd|../../B-LogicaCombinacional/src/rtl/DMux4Way.vhd|../../B-LogicaCombinacional/src/rtl/DMux8Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux16.vhd|../../B-LogicaCombinacional/src/rtl/Mux2Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux4Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux4Way16.vhd|../../B-LogicaCombinacional/src/rtl/Mux8Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux8Way16.vhd|../../B-LogicaCombinacional/src/rtl/Nand.vhd|../../B-LogicaCombinacional/src/rtl/Nor8Way.vhd|../../B-LogicaCombinacional/src/rtl/Not16.vhd|../../B-LogicaCombinacional/src/rtl/Or16.vhd|../../B-LogicaCombinacional/src/rtl/Or8Way.vhd|../../B-LogicaCombinacional/src/rtl/binarioToBcd.vhd|../../B-LogicaCombinacional/src/rtl/circuito.vhd|../../B-LogicaCombinacional/src/rtl/detectorDeMoedas.vhd|../../B-LogicaCombinacional/src/rtl/impressora.vhd|../../B-LogicaCombinacional/src/rtl/or16.vhd|../../B-LogicaCombinacional/src/rtl/sevenSeg.vhd|
-Z30 !s107 ../../B-LogicaCombinacional/src/rtl/sevenSeg.vhd|../../B-LogicaCombinacional/src/rtl/or16.vhd|../../B-LogicaCombinacional/src/rtl/impressora.vhd|../../B-LogicaCombinacional/src/rtl/detectorDeMoedas.vhd|../../B-LogicaCombinacional/src/rtl/circuito.vhd|../../B-LogicaCombinacional/src/rtl/binarioToBcd.vhd|../../B-LogicaCombinacional/src/rtl/Or8Way.vhd|../../B-LogicaCombinacional/src/rtl/Or16.vhd|../../B-LogicaCombinacional/src/rtl/Not16.vhd|../../B-LogicaCombinacional/src/rtl/Nor8Way.vhd|../../B-LogicaCombinacional/src/rtl/Nand.vhd|../../B-LogicaCombinacional/src/rtl/Mux8Way16.vhd|../../B-LogicaCombinacional/src/rtl/Mux8Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux4Way16.vhd|../../B-LogicaCombinacional/src/rtl/Mux4Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux2Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux16.vhd|../../B-LogicaCombinacional/src/rtl/DMux8Way.vhd|../../B-LogicaCombinacional/src/rtl/DMux4Way.vhd|../../B-LogicaCombinacional/src/rtl/DMux2Way.vhd|../../B-LogicaCombinacional/src/rtl/BarrelShifter16.vhd|../../B-LogicaCombinacional/src/rtl/And16.vhd|
+Z21 !s108 1589543958.000000
+Z22 !s90 -reportprogress|300|-work|work|../../B-LogicaCombinacional/src/rtl/And16.vhd|../../B-LogicaCombinacional/src/rtl/BarrelShifter16.vhd|../../B-LogicaCombinacional/src/rtl/DMux2Way.vhd|../../B-LogicaCombinacional/src/rtl/DMux4Way.vhd|../../B-LogicaCombinacional/src/rtl/DMux8Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux16.vhd|../../B-LogicaCombinacional/src/rtl/Mux2Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux4Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux4Way16.vhd|../../B-LogicaCombinacional/src/rtl/Mux8Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux8Way16.vhd|../../B-LogicaCombinacional/src/rtl/Nand.vhd|../../B-LogicaCombinacional/src/rtl/Nor8Way.vhd|../../B-LogicaCombinacional/src/rtl/Not16.vhd|../../B-LogicaCombinacional/src/rtl/Or16.vhd|../../B-LogicaCombinacional/src/rtl/Or8Way.vhd|../../B-LogicaCombinacional/src/rtl/binarioToBcd.vhd|../../B-LogicaCombinacional/src/rtl/circuito.vhd|../../B-LogicaCombinacional/src/rtl/detectorDeMoedas.vhd|../../B-LogicaCombinacional/src/rtl/impressora.vhd|../../B-LogicaCombinacional/src/rtl/or16.vhd|../../B-LogicaCombinacional/src/rtl/sevenSeg.vhd|
+Z23 !s107 ../../B-LogicaCombinacional/src/rtl/sevenSeg.vhd|../../B-LogicaCombinacional/src/rtl/or16.vhd|../../B-LogicaCombinacional/src/rtl/impressora.vhd|../../B-LogicaCombinacional/src/rtl/detectorDeMoedas.vhd|../../B-LogicaCombinacional/src/rtl/circuito.vhd|../../B-LogicaCombinacional/src/rtl/binarioToBcd.vhd|../../B-LogicaCombinacional/src/rtl/Or8Way.vhd|../../B-LogicaCombinacional/src/rtl/Or16.vhd|../../B-LogicaCombinacional/src/rtl/Not16.vhd|../../B-LogicaCombinacional/src/rtl/Nor8Way.vhd|../../B-LogicaCombinacional/src/rtl/Nand.vhd|../../B-LogicaCombinacional/src/rtl/Mux8Way16.vhd|../../B-LogicaCombinacional/src/rtl/Mux8Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux4Way16.vhd|../../B-LogicaCombinacional/src/rtl/Mux4Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux2Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux16.vhd|../../B-LogicaCombinacional/src/rtl/DMux8Way.vhd|../../B-LogicaCombinacional/src/rtl/DMux4Way.vhd|../../B-LogicaCombinacional/src/rtl/DMux2Way.vhd|../../B-LogicaCombinacional/src/rtl/BarrelShifter16.vhd|../../B-LogicaCombinacional/src/rtl/And16.vhd|
 !i113 1
 R11
 R12
@@ -140,19 +140,19 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
 Ebarrelshifter16
-Z31 w1582888750
+Z24 w1582888750
 R1
 R2
 R3
-Z32 8../../B-LogicaCombinacional/src/rtl/BarrelShifter16.vhd
-Z33 F../../B-LogicaCombinacional/src/rtl/BarrelShifter16.vhd
+Z25 8../../B-LogicaCombinacional/src/rtl/BarrelShifter16.vhd
+Z26 F../../B-LogicaCombinacional/src/rtl/BarrelShifter16.vhd
 l0
 L4
 VGl?fcmSBE4`QEJLNC46J13
@@ -161,9 +161,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -179,14 +179,14 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
 Aarch
-Z34 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z27 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R1
 R2
 DEx4 work 15 barrelshifter16 0 22 1ZQJL]m`<=dTWlDd01d1c0
@@ -196,40 +196,40 @@ V39XMdhNCNjXncf3JN^Ym?1
 !s100 P2jk8[e4@8EN6[RdQVZ1]3
 R6
 32
-R23
+R16
 !i10b 1
-R24
-Z35 !s90 -reportprogress|300|-work|work|../../B-LogicaCombinacional/src/rtl/And16.vhd|../../B-LogicaCombinacional/src/rtl/BarrelShifter16.vhd|../../B-LogicaCombinacional/src/rtl/BarrelShifter8.vhd|../../B-LogicaCombinacional/src/rtl/DMux2Way.vhd|../../B-LogicaCombinacional/src/rtl/DMux4Way.vhd|../../B-LogicaCombinacional/src/rtl/DMux8Way.vhd|../../B-LogicaCombinacional/src/rtl/DMux8Way16.vhd|../../B-LogicaCombinacional/src/rtl/Mux16.vhd|../../B-LogicaCombinacional/src/rtl/Mux2Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux4Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux4Way16.vhd|../../B-LogicaCombinacional/src/rtl/Mux8Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux8Way16.vhd|../../B-LogicaCombinacional/src/rtl/Nand.vhd|../../B-LogicaCombinacional/src/rtl/Nor8Way.vhd|../../B-LogicaCombinacional/src/rtl/Not16.vhd|../../B-LogicaCombinacional/src/rtl/Or16.vhd|../../B-LogicaCombinacional/src/rtl/Or8Way.vhd|../../B-LogicaCombinacional/src/rtl/binarioToBcd.vhd|../../B-LogicaCombinacional/src/rtl/circuito.vhd|../../B-LogicaCombinacional/src/rtl/detectorDeMoedas.vhd|../../B-LogicaCombinacional/src/rtl/impressora.vhd|../../B-LogicaCombinacional/src/rtl/sevenSeg.vhd|
-Z36 !s107 ../../B-LogicaCombinacional/src/rtl/sevenSeg.vhd|../../B-LogicaCombinacional/src/rtl/impressora.vhd|../../B-LogicaCombinacional/src/rtl/detectorDeMoedas.vhd|../../B-LogicaCombinacional/src/rtl/circuito.vhd|../../B-LogicaCombinacional/src/rtl/binarioToBcd.vhd|../../B-LogicaCombinacional/src/rtl/Or8Way.vhd|../../B-LogicaCombinacional/src/rtl/Or16.vhd|../../B-LogicaCombinacional/src/rtl/Not16.vhd|../../B-LogicaCombinacional/src/rtl/Nor8Way.vhd|../../B-LogicaCombinacional/src/rtl/Nand.vhd|../../B-LogicaCombinacional/src/rtl/Mux8Way16.vhd|../../B-LogicaCombinacional/src/rtl/Mux8Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux4Way16.vhd|../../B-LogicaCombinacional/src/rtl/Mux4Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux2Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux16.vhd|../../B-LogicaCombinacional/src/rtl/DMux8Way16.vhd|../../B-LogicaCombinacional/src/rtl/DMux8Way.vhd|../../B-LogicaCombinacional/src/rtl/DMux4Way.vhd|../../B-LogicaCombinacional/src/rtl/DMux2Way.vhd|../../B-LogicaCombinacional/src/rtl/BarrelShifter8.vhd|../../B-LogicaCombinacional/src/rtl/BarrelShifter16.vhd|../../B-LogicaCombinacional/src/rtl/And16.vhd|
+R17
+Z28 !s90 -reportprogress|300|-work|work|../../B-LogicaCombinacional/src/rtl/And16.vhd|../../B-LogicaCombinacional/src/rtl/BarrelShifter16.vhd|../../B-LogicaCombinacional/src/rtl/BarrelShifter8.vhd|../../B-LogicaCombinacional/src/rtl/DMux2Way.vhd|../../B-LogicaCombinacional/src/rtl/DMux4Way.vhd|../../B-LogicaCombinacional/src/rtl/DMux8Way.vhd|../../B-LogicaCombinacional/src/rtl/DMux8Way16.vhd|../../B-LogicaCombinacional/src/rtl/Mux16.vhd|../../B-LogicaCombinacional/src/rtl/Mux2Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux4Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux4Way16.vhd|../../B-LogicaCombinacional/src/rtl/Mux8Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux8Way16.vhd|../../B-LogicaCombinacional/src/rtl/Nand.vhd|../../B-LogicaCombinacional/src/rtl/Nor8Way.vhd|../../B-LogicaCombinacional/src/rtl/Not16.vhd|../../B-LogicaCombinacional/src/rtl/Or16.vhd|../../B-LogicaCombinacional/src/rtl/Or8Way.vhd|../../B-LogicaCombinacional/src/rtl/binarioToBcd.vhd|../../B-LogicaCombinacional/src/rtl/circuito.vhd|../../B-LogicaCombinacional/src/rtl/detectorDeMoedas.vhd|../../B-LogicaCombinacional/src/rtl/impressora.vhd|../../B-LogicaCombinacional/src/rtl/sevenSeg.vhd|
+Z29 !s107 ../../B-LogicaCombinacional/src/rtl/sevenSeg.vhd|../../B-LogicaCombinacional/src/rtl/impressora.vhd|../../B-LogicaCombinacional/src/rtl/detectorDeMoedas.vhd|../../B-LogicaCombinacional/src/rtl/circuito.vhd|../../B-LogicaCombinacional/src/rtl/binarioToBcd.vhd|../../B-LogicaCombinacional/src/rtl/Or8Way.vhd|../../B-LogicaCombinacional/src/rtl/Or16.vhd|../../B-LogicaCombinacional/src/rtl/Not16.vhd|../../B-LogicaCombinacional/src/rtl/Nor8Way.vhd|../../B-LogicaCombinacional/src/rtl/Nand.vhd|../../B-LogicaCombinacional/src/rtl/Mux8Way16.vhd|../../B-LogicaCombinacional/src/rtl/Mux8Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux4Way16.vhd|../../B-LogicaCombinacional/src/rtl/Mux4Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux2Way.vhd|../../B-LogicaCombinacional/src/rtl/Mux16.vhd|../../B-LogicaCombinacional/src/rtl/DMux8Way16.vhd|../../B-LogicaCombinacional/src/rtl/DMux8Way.vhd|../../B-LogicaCombinacional/src/rtl/DMux4Way.vhd|../../B-LogicaCombinacional/src/rtl/DMux2Way.vhd|../../B-LogicaCombinacional/src/rtl/BarrelShifter8.vhd|../../B-LogicaCombinacional/src/rtl/BarrelShifter16.vhd|../../B-LogicaCombinacional/src/rtl/And16.vhd|
 !i113 1
 R11
 R12
-R22
-Z37 w1540332495
+R15
+Z30 w1540332495
 Ebarrelshifter8
-Z38 w1543443449
-R34
+Z31 w1543443449
+R27
 R1
 R2
-R22
-Z39 8../../B-LogicaCombinacional/src/rtl/BarrelShifter8.vhd
-Z40 F../../B-LogicaCombinacional/src/rtl/BarrelShifter8.vhd
+R15
+Z32 8../../B-LogicaCombinacional/src/rtl/BarrelShifter8.vhd
+Z33 F../../B-LogicaCombinacional/src/rtl/BarrelShifter8.vhd
 l0
 L9
 V=6jhj]PDJeQQz`NE9K>=W1
 !s100 HIo=4YUjAoJ^_5ZR8m_SF2
 R6
 32
-R23
+R16
 !i10b 1
-R24
-R35
-R36
+R17
+R28
+R29
 !i113 1
 R11
 R12
 Aarch
-R34
+R27
 R1
 R2
 DEx4 work 14 barrelshifter8 0 22 =6jhj]PDJeQQz`NE9K>=W1
@@ -239,23 +239,23 @@ V]CA?ZVBPj7gUOQJeVXI5F3
 !s100 >:9fAm<>n8hD20Z5:;2j03
 R6
 32
-R23
+R16
 !i10b 1
-R24
-R35
-R36
+R17
+R28
+R29
 !i113 1
 R11
 R12
 Ebinariotobcd
-R31
-Z41 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z42 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R24
+Z34 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z35 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R1
 R2
 R3
-Z43 8../../B-LogicaCombinacional/src/rtl/binarioToBcd.vhd
-Z44 F../../B-LogicaCombinacional/src/rtl/binarioToBcd.vhd
+Z36 8../../B-LogicaCombinacional/src/rtl/binarioToBcd.vhd
+Z37 F../../B-LogicaCombinacional/src/rtl/binarioToBcd.vhd
 l0
 L8
 V2kGRKQVGe=F:mT[8^WAl:2
@@ -264,15 +264,15 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
 Abehaviour
-R41
-R42
+R34
+R35
 R1
 R2
 DEx4 work 12 binariotobcd 0 22 2kGRKQVGe=F:mT[8^WAl:2
@@ -284,30 +284,30 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
 Ebinarydigit
-R37
+R18
 R1
 R2
-R22
-Z45 8../../D-LogicaSequencial/src/rtl/BinaryDigit.vhd
-Z46 F../../D-LogicaSequencial/src/rtl/BinaryDigit.vhd
+R3
+Z38 8../../D-LogicaSequencial/src/rtl/BinaryDigit.vhd
+Z39 F../../D-LogicaSequencial/src/rtl/BinaryDigit.vhd
 l0
 L8
 VdR[J]dl]:2]i<o=Gl8KBf0
 !s100 fFP230Rg1V>^^WU1G9Xa[2
 R6
 32
-R23
+R7
 !i10b 1
-R24
-Z47 !s90 -reportprogress|300|-work|work|../../D-LogicaSequencial/src/rtl/BinaryDigit.vhd|../../D-LogicaSequencial/src/rtl/FlipFlopD.vhd|../../D-LogicaSequencial/src/rtl/PC.vhd|../../D-LogicaSequencial/src/rtl/Ram4K.vhd|../../D-LogicaSequencial/src/rtl/Ram512.vhd|../../D-LogicaSequencial/src/rtl/Ram64.vhd|../../D-LogicaSequencial/src/rtl/Ram8.vhd|../../D-LogicaSequencial/src/rtl/Register16.vhd|../../D-LogicaSequencial/src/rtl/Register32.vhd|../../D-LogicaSequencial/src/rtl/Register64.vhd|../../D-LogicaSequencial/src/rtl/Register8.vhd|
-Z48 !s107 ../../D-LogicaSequencial/src/rtl/Register8.vhd|../../D-LogicaSequencial/src/rtl/Register64.vhd|../../D-LogicaSequencial/src/rtl/Register32.vhd|../../D-LogicaSequencial/src/rtl/Register16.vhd|../../D-LogicaSequencial/src/rtl/Ram8.vhd|../../D-LogicaSequencial/src/rtl/Ram64.vhd|../../D-LogicaSequencial/src/rtl/Ram512.vhd|../../D-LogicaSequencial/src/rtl/Ram4K.vhd|../../D-LogicaSequencial/src/rtl/PC.vhd|../../D-LogicaSequencial/src/rtl/FlipFlopD.vhd|../../D-LogicaSequencial/src/rtl/BinaryDigit.vhd|
+R8
+Z40 !s90 -reportprogress|300|-work|work|../../D-LogicaSequencial/src/rtl/BinaryDigit.vhd|../../D-LogicaSequencial/src/rtl/FlipFlopD.vhd|../../D-LogicaSequencial/src/rtl/Mux2Way16.vhd|../../D-LogicaSequencial/src/rtl/PC.vhd|../../D-LogicaSequencial/src/rtl/Ram4K.vhd|../../D-LogicaSequencial/src/rtl/Ram512.vhd|../../D-LogicaSequencial/src/rtl/Ram64.vhd|../../D-LogicaSequencial/src/rtl/Ram8.vhd|../../D-LogicaSequencial/src/rtl/Register16.vhd|../../D-LogicaSequencial/src/rtl/Register32.vhd|../../D-LogicaSequencial/src/rtl/Register64.vhd|../../D-LogicaSequencial/src/rtl/Register8.vhd|
+Z41 !s107 ../../D-LogicaSequencial/src/rtl/Register8.vhd|../../D-LogicaSequencial/src/rtl/Register64.vhd|../../D-LogicaSequencial/src/rtl/Register32.vhd|../../D-LogicaSequencial/src/rtl/Register16.vhd|../../D-LogicaSequencial/src/rtl/Ram8.vhd|../../D-LogicaSequencial/src/rtl/Ram64.vhd|../../D-LogicaSequencial/src/rtl/Ram512.vhd|../../D-LogicaSequencial/src/rtl/Ram4K.vhd|../../D-LogicaSequencial/src/rtl/PC.vhd|../../D-LogicaSequencial/src/rtl/Mux2Way16.vhd|../../D-LogicaSequencial/src/rtl/FlipFlopD.vhd|../../D-LogicaSequencial/src/rtl/BinaryDigit.vhd|
 !i113 1
 R11
 R12
@@ -317,25 +317,25 @@ R2
 DEx4 work 11 binarydigit 0 22 dR[J]dl]:2]i<o=Gl8KBf0
 l39
 L17
-VhWM`7>@MPKnZR5ZX>LV5>2
-!s100 =Jf?k:bZ7^G7RQQA3W]OM1
+VVMCQ2Ag5IFQ9lVW]PcBbh0
+!s100 AcCgGobWK8IN9A>@5iDQj1
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R47
-R48
+R8
+R40
+R41
 !i113 1
 R11
 R12
 Ecircuito
-R0
+R18
 R1
 R2
 R3
-Z49 8../../B-LogicaCombinacional/src/rtl/circuito.vhd
-Z50 F../../B-LogicaCombinacional/src/rtl/circuito.vhd
+Z42 8../../B-LogicaCombinacional/src/rtl/circuito.vhd
+Z43 F../../B-LogicaCombinacional/src/rtl/circuito.vhd
 l0
 L4
 VZf7hHlO9lJ]eEn?@Pf<zc3
@@ -344,9 +344,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -362,9 +362,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -373,8 +373,8 @@ R0
 R1
 R2
 R3
-Z51 8../../C-UnidadeLogicaAritmetica/src/rtl/comparador16.vhd
-Z52 F../../C-UnidadeLogicaAritmetica/src/rtl/comparador16.vhd
+Z44 8../../C-UnidadeLogicaAritmetica/src/rtl/comparador16.vhd
+Z45 F../../C-UnidadeLogicaAritmetica/src/rtl/comparador16.vhd
 l0
 L8
 VEeG9hfJ<LQLD<d6FBEh_41
@@ -399,39 +399,38 @@ VnlhF9jYCY:aV1`4EF4lDO0
 !s100 8<ZUE;EW_D4UDcccTW;6G2
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R25
-R26
+R8
+R9
+R10
 !i113 1
 R11
 R12
-R22
 Ecomputador
-Z53 w1587515319
-R34
+Z46 w1588784934
+R27
 R1
 R2
-R22
-Z54 8../src/rtl/Computador.vhd
-Z55 F../src/rtl/Computador.vhd
+R3
+Z47 8../src/rtl/Computador.vhd
+Z48 F../src/rtl/Computador.vhd
 l0
 L18
 Vh7GbNN6@;8Qe?c5?hOa4?1
 !s100 Yc1foIZGHVIYTZW9EVGbb2
 R6
 32
-R23
+R7
 !i10b 1
-R24
-Z56 !s90 -reportprogress|300|-work|work|../src/rtl/Computador.vhd|
-Z57 !s107 ../src/rtl/Computador.vhd|
+R8
+Z49 !s90 -reportprogress|300|-work|work|../src/rtl/Computador.vhd|
+Z50 !s107 ../src/rtl/Computador.vhd|
 !i113 1
 R11
 R12
 Alogic
-R34
+R27
 R1
 R2
 DEx4 work 10 computador 0 22 h7GbNN6@;8Qe?c5?hOa4?1
@@ -441,73 +440,73 @@ VVenL1QHm0>kB241B4?m^g0
 !s100 cZiSRKAd7XX5T42iUioZz3
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R56
-R57
+R8
+R49
+R50
 !i113 1
 R11
 R12
 Ecomputador_tb
-Z58 w1587516106
-R34
+R46
+R27
 R1
 R2
-R22
-Z59 8../tests/Computador_tb.vhd
-Z60 F../tests/Computador_tb.vhd
+R3
+Z51 8../tests/Computador_tb.vhd
+Z52 F../tests/Computador_tb.vhd
 l0
 L17
 V^<T_kEk4AEg2XQQdZNHhg3
 !s100 TNE09aYh8d4DH0B==1NGH3
 R6
 32
-R23
+R7
 !i10b 1
-R24
-Z61 !s90 -reportprogress|300|-work|work|../tests/Computador_tb.vhd|
-Z62 !s107 ../tests/Computador_tb.vhd|
+R8
+Z53 !s90 -reportprogress|300|-work|work|../tests/Computador_tb.vhd|
+Z54 !s107 ../tests/Computador_tb.vhd|
 !i113 1
 R11
 R12
 Artl
-R34
+R27
 R1
 R2
-DEx4 work 13 computador_tb 0 22 ^<T_kEk4AEg2XQQdZNHhg3
+Z55 DEx4 work 13 computador_tb 0 22 ^<T_kEk4AEg2XQQdZNHhg3
 l49
 L20
-Vo0^?[JK2XThdniD6InYmB2
-!s100 ?0Dc;YYAbk1jD8;gclmAc2
+Z56 Vo0^?[JK2XThdniD6InYmB2
+Z57 !s100 ?0Dc;YYAbk1jD8;gclmAc2
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R61
-R62
+R8
+R53
+R54
 !i113 1
 R11
 R12
 Econtrolunit
-Z63 w1586273742
+Z58 w1589388906
 R1
 R2
-R22
-Z64 8../src/rtl/ControlUnit.vhd
-Z65 F../src/rtl/ControlUnit.vhd
+R3
+Z59 8../src/rtl/ControlUnit.vhd
+Z60 F../src/rtl/ControlUnit.vhd
 l0
 L13
 VfP?]48ncII?mA8Wb1kZIS2
 !s100 eNB=?;aD6G8fNH06E1j=d0
 R6
 32
-R23
+R7
 !i10b 1
-R24
-Z66 !s90 -reportprogress|300|-work|work|../src/rtl/ControlUnit.vhd|
-Z67 !s107 ../src/rtl/ControlUnit.vhd|
+R8
+Z61 !s90 -reportprogress|300|-work|work|../src/rtl/ControlUnit.vhd|
+Z62 !s107 ../src/rtl/ControlUnit.vhd|
 !i113 1
 R11
 R12
@@ -515,38 +514,38 @@ Aarch
 R1
 R2
 DEx4 work 11 controlunit 0 22 fP?]48ncII?mA8Wb1kZIS2
-l35
+l31
 L29
-VcJ2[N@_aXWBYecS_ODZ8E2
-!s100 ^JnY]`_UHIOm:=la@mj^N2
+VZGM<FEkjZnFnlFzeBKA7a3
+!s100 ?DbFkzHkgQcK2YGHIz6Jm0
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R66
-R67
+R8
+R61
+R62
 !i113 1
 R11
 R12
 Ecpu
-Z68 w1586272710
+R0
 R1
 R2
-R22
-Z69 8../src/rtl/CPU.vhd
-Z70 F../src/rtl/CPU.vhd
+R3
+Z63 8../src/rtl/CPU.vhd
+Z64 F../src/rtl/CPU.vhd
 l0
 L9
 VS?d@A_IIeUMBb1?zz5H7=0
 !s100 c7RNQ@bal?=>cRK1Je`fP2
 R6
 32
-R23
+R7
 !i10b 1
-R24
-Z71 !s90 -reportprogress|300|-work|work|../src/rtl/CPU.vhd|
-Z72 !s107 ../src/rtl/CPU.vhd|
+R8
+Z65 !s90 -reportprogress|300|-work|work|../src/rtl/CPU.vhd|
+Z66 !s107 ../src/rtl/CPU.vhd|
 !i113 1
 R11
 R12
@@ -554,27 +553,27 @@ Aarch
 R1
 R2
 DEx4 work 3 cpu 0 22 S?d@A_IIeUMBb1?zz5H7=0
-l102
+l101
 L22
-VlR>697?``Y4InTi41Ae8F3
-!s100 ND8OE:TiohdVlR^KS=h8n0
+VYha1G_TAodXa1e>o=X;VF1
+!s100 M@EDmeXP3GX8>I?V>4Em;0
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R71
-R72
+R8
+R65
+R66
 !i113 1
 R11
 R12
 Edetectordemoedas
-R0
+R18
 R1
 R2
 R3
-Z73 8../../B-LogicaCombinacional/src/rtl/detectorDeMoedas.vhd
-Z74 F../../B-LogicaCombinacional/src/rtl/detectorDeMoedas.vhd
+Z67 8../../B-LogicaCombinacional/src/rtl/detectorDeMoedas.vhd
+Z68 F../../B-LogicaCombinacional/src/rtl/detectorDeMoedas.vhd
 l0
 L4
 V=@Ro8^9jf`]Y9fH2U:ZHc0
@@ -583,9 +582,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -601,19 +600,19 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
 Edmux2way
-R0
+R18
 R1
 R2
 R3
-Z75 8../../B-LogicaCombinacional/src/rtl/DMux2Way.vhd
-Z76 F../../B-LogicaCombinacional/src/rtl/DMux2Way.vhd
+Z69 8../../B-LogicaCombinacional/src/rtl/DMux2Way.vhd
+Z70 F../../B-LogicaCombinacional/src/rtl/DMux2Way.vhd
 l0
 L4
 Vz0aD@864Kbj0nPo<ZL;HB2
@@ -622,9 +621,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -640,9 +639,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -656,23 +655,23 @@ V?PTj_S_gh]7O;TL7baC;;3
 !s100 N@LbJ^R>Ic5JA[;W?RBBF1
 R6
 32
-R23
+R16
 !i10b 1
-R24
-R35
-R36
+R17
+R28
+R29
 !i113 1
 R11
 R12
-R22
-R37
+R15
+R30
 Edmux4way
-R0
+R18
 R1
 R2
 R3
-Z77 8../../B-LogicaCombinacional/src/rtl/DMux4Way.vhd
-Z78 F../../B-LogicaCombinacional/src/rtl/DMux4Way.vhd
+Z71 8../../B-LogicaCombinacional/src/rtl/DMux4Way.vhd
+Z72 F../../B-LogicaCombinacional/src/rtl/DMux4Way.vhd
 l0
 L4
 Vm=YhYG]BD:7^9o^jcI2[K0
@@ -681,9 +680,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -699,9 +698,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -715,23 +714,23 @@ VAoAV@KLV2oj7g8n5`]gU83
 !s100 VJB_8^^kg;NY>D8F]]5df1
 R6
 32
-R23
+R16
 !i10b 1
-R24
-R35
-R36
+R17
+R28
+R29
 !i113 1
 R11
 R12
-R22
-R37
+R15
+R30
 Edmux8way
-R0
+R18
 R1
 R2
 R3
-Z79 8../../B-LogicaCombinacional/src/rtl/DMux8Way.vhd
-Z80 F../../B-LogicaCombinacional/src/rtl/DMux8Way.vhd
+Z73 8../../B-LogicaCombinacional/src/rtl/DMux8Way.vhd
+Z74 F../../B-LogicaCombinacional/src/rtl/DMux8Way.vhd
 l0
 L4
 VS_Re?oBe[6?k0CA_N<4mW2
@@ -740,9 +739,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -758,30 +757,30 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
 Edmux8way16
-R37
+R30
 R1
 R2
-R22
-Z81 8../../B-LogicaCombinacional/src/rtl/DMux8Way16.vhd
-Z82 F../../B-LogicaCombinacional/src/rtl/DMux8Way16.vhd
+R15
+Z75 8../../B-LogicaCombinacional/src/rtl/DMux8Way16.vhd
+Z76 F../../B-LogicaCombinacional/src/rtl/DMux8Way16.vhd
 l0
 L8
 VPXU[iWO>Eazbf?iCINIU21
 !s100 ]lW@MN2jkXQ4F7faN0O9<2
 R6
 32
-R23
+R16
 !i10b 1
-R24
-R35
-R36
+R17
+R28
+R29
 !i113 1
 R11
 R12
@@ -795,32 +794,32 @@ V[FVIDli^n>DCBoo`QGaXC2
 !s100 1`W30DISB<i>EPl87c74g3
 R6
 32
-R23
+R16
 !i10b 1
-R24
-R35
-R36
+R17
+R28
+R29
 !i113 1
 R11
 R12
 Efifo16x4096
-Z83 w1541760503
+R46
 R1
 R2
-R22
-Z84 8../src/rtl/Dispositivos/Screen/FIFO/FIFO16x4096.vhd
-Z85 F../src/rtl/Dispositivos/Screen/FIFO/FIFO16x4096.vhd
+R3
+Z77 8../src/rtl/Dispositivos/Screen/FIFO/FIFO16x4096.vhd
+Z78 F../src/rtl/Dispositivos/Screen/FIFO/FIFO16x4096.vhd
 l0
 L43
 VzFV;0jL6N8jRi`hk1413a3
 !s100 iX=YCebcH1iIF4JU;Bemj3
 R6
 32
-R23
+R7
 !i10b 1
-R24
-Z86 !s90 -reportprogress|300|-work|work|../src/rtl/Dispositivos/Screen/FIFO/FIFO16x4096.vhd|
-Z87 !s107 ../src/rtl/Dispositivos/Screen/FIFO/FIFO16x4096.vhd|
+R8
+Z79 !s90 -reportprogress|300|-work|work|../src/rtl/Dispositivos/Screen/FIFO/FIFO16x4096.vhd|
+Z80 !s107 ../src/rtl/Dispositivos/Screen/FIFO/FIFO16x4096.vhd|
 !i113 1
 R11
 R12
@@ -834,32 +833,32 @@ V2=mCV]]FAVcS:HG]?iR4A0
 !s100 3]aYUBRe>i56LHZhO8Db10
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R86
-R87
+R8
+R79
+R80
 !i113 1
 R11
 R12
 Eflipflopd
-R37
+R18
 R1
 R2
-R22
-Z88 8../../D-LogicaSequencial/src/rtl/FlipFlopD.vhd
-Z89 F../../D-LogicaSequencial/src/rtl/FlipFlopD.vhd
+R3
+Z81 8../../D-LogicaSequencial/src/rtl/FlipFlopD.vhd
+Z82 F../../D-LogicaSequencial/src/rtl/FlipFlopD.vhd
 l0
 L8
 V[3]KAV_]flnk:YT^I<Ad_3
 !s100 dO0M_NbMc7lj3o=60[LCQ0
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R47
-R48
+R8
+R40
+R41
 !i113 1
 R11
 R12
@@ -867,17 +866,17 @@ Aarch
 R1
 R2
 DEx4 work 9 flipflopd 0 22 [3]KAV_]flnk:YT^I<Ad_3
-l19
+l20
 L18
-VUh0O`lCnAiJQzga>hNzF90
-!s100 :Uj_C>J1F8V9h74jdn<2F3
+V_i7cQb>c<G=7=E[1_3lmF3
+!s100 JEO^P3TIJmiNFd;nKBF0Z2
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R47
-R48
+R8
+R40
+R41
 !i113 1
 R11
 R12
@@ -886,8 +885,8 @@ R0
 R1
 R2
 R3
-Z90 8../../C-UnidadeLogicaAritmetica/src/rtl/FullAdder.vhd
-Z91 F../../C-UnidadeLogicaAritmetica/src/rtl/FullAdder.vhd
+Z83 8../../C-UnidadeLogicaAritmetica/src/rtl/FullAdder.vhd
+Z84 F../../C-UnidadeLogicaAritmetica/src/rtl/FullAdder.vhd
 l0
 L10
 VDRYL6eKo9>mlT:T[XVkjm2
@@ -905,11 +904,11 @@ R12
 Artl
 R1
 R2
-Z92 DEx4 work 9 fulladder 0 22 DRYL6eKo9>mlT:T[XVkjm2
-l22
+DEx4 work 9 fulladder 0 22 DRYL6eKo9>mlT:T[XVkjm2
+l19
 L17
-Z93 V_d9O>hQbF;_3PAHPJh60F0
-Z94 !s100 9CD7d7S>H5kG0FXU34iQF1
+V182]fjlFn;3VTMG@f__4G1
+!s100 [QWc`mP`=`F]k3[eD1BGK2
 R6
 32
 R7
@@ -925,8 +924,8 @@ R0
 R1
 R2
 R3
-Z95 8../../C-UnidadeLogicaAritmetica/src/rtl/HalfAdder.vhd
-Z96 F../../C-UnidadeLogicaAritmetica/src/rtl/HalfAdder.vhd
+Z85 8../../C-UnidadeLogicaAritmetica/src/rtl/HalfAdder.vhd
+Z86 F../../C-UnidadeLogicaAritmetica/src/rtl/HalfAdder.vhd
 l0
 L10
 VET9;8QadDUzcYLJM]71HR3
@@ -944,11 +943,11 @@ R12
 Artl
 R1
 R2
-Z97 DEx4 work 9 halfadder 0 22 ET9;8QadDUzcYLJM]71HR3
-l23
+DEx4 work 9 halfadder 0 22 ET9;8QadDUzcYLJM]71HR3
+l19
 L17
-Z98 V05ES[n69_m>4DXm<m^C]^1
-Z99 !s100 E4:=7EYCi3W3OmnP=QoLB3
+V=fo0PK>T8dHjGiG<Az9;^1
+!s100 =EiglcQ3F_Vc3VDchH3C82
 R6
 32
 R7
@@ -960,29 +959,29 @@ R10
 R11
 R12
 Eili9341
-R83
-R34
+Z87 w1541760503
+R27
 R1
 R2
-Z100 d/home/corsi/work/Z01.1-priv/Projetos/G-Computador/Z01-Simulator-RTL
-Z101 8../src/rtl/Dispositivos/Screen/ILI9341.vhd
-Z102 F../src/rtl/Dispositivos/Screen/ILI9341.vhd
+Z88 d/home/corsi/work/Z01.1-priv/Projetos/G-Computador/Z01-Simulator-RTL
+Z89 8../src/rtl/Dispositivos/Screen/ILI9341.vhd
+Z90 F../src/rtl/Dispositivos/Screen/ILI9341.vhd
 l0
 L29
 VAPRK2AeW1@nf9m`nNLCX:1
 !s100 b_1eMG0HzeD5W9_g=ghdL0
 R6
 32
-Z103 !s110 1556124775
+Z91 !s110 1556124775
 !i10b 1
-Z104 !s108 1556124775.000000
-Z105 !s90 -reportprogress|300|-work|work|../src/rtl/Dispositivos/Screen/ILI9341.vhd|../src/rtl/Dispositivos/Screen/Screen.vhd|
-Z106 !s107 ../src/rtl/Dispositivos/Screen/Screen.vhd|../src/rtl/Dispositivos/Screen/ILI9341.vhd|
+Z92 !s108 1556124775.000000
+Z93 !s90 -reportprogress|300|-work|work|../src/rtl/Dispositivos/Screen/ILI9341.vhd|../src/rtl/Dispositivos/Screen/Screen.vhd|
+Z94 !s107 ../src/rtl/Dispositivos/Screen/Screen.vhd|../src/rtl/Dispositivos/Screen/ILI9341.vhd|
 !i113 1
 R11
 R12
 Artl
-R34
+R27
 R1
 R2
 DEx4 work 7 ili9341 0 22 APRK2AeW1@nf9m`nNLCX:1
@@ -992,21 +991,21 @@ V9lDiXNAU?n@h;`0O>?cO[3
 !s100 <2a5_IBgL[oU4m4557XBl3
 R6
 32
-R103
+R91
 !i10b 1
-R104
-R105
-R106
+R92
+R93
+R94
 !i113 1
 R11
 R12
 Eimpressora
-R0
+R18
 R1
 R2
 R3
-Z107 8../../B-LogicaCombinacional/src/rtl/impressora.vhd
-Z108 F../../B-LogicaCombinacional/src/rtl/impressora.vhd
+Z95 8../../B-LogicaCombinacional/src/rtl/impressora.vhd
+Z96 F../../B-LogicaCombinacional/src/rtl/impressora.vhd
 l0
 L4
 VZNJURh;ZO>o19K?U?IN2>0
@@ -1015,9 +1014,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -1033,9 +1032,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -1044,8 +1043,8 @@ R0
 R1
 R2
 R3
-Z109 8../../C-UnidadeLogicaAritmetica/src/rtl/Inc16.vhd
-Z110 F../../C-UnidadeLogicaAritmetica/src/rtl/Inc16.vhd
+Z97 8../../C-UnidadeLogicaAritmetica/src/rtl/Inc16.vhd
+Z98 F../../C-UnidadeLogicaAritmetica/src/rtl/Inc16.vhd
 l0
 L11
 Vi37fX8CV5m:Q2T@=H6M^X3
@@ -1063,11 +1062,11 @@ R12
 Artl
 R1
 R2
-Z111 DEx4 work 5 inc16 0 22 i37fX8CV5m:Q2T@=H6M^X3
-l31
+DEx4 work 5 inc16 0 22 i37fX8CV5m:Q2T@=H6M^X3
+l29
 L18
-Z112 VZiJjSUe@1IY3OC22ZNgKF1
-Z113 !s100 B5BkWKJ[B:c5cJ]>ojdZ_0
+V_6n4T4;c^Jh[f`h27nC;70
+!s100 hz:`mOi:>NnKY0F<^UZ7l3
 R6
 32
 R7
@@ -1079,23 +1078,23 @@ R10
 R11
 R12
 Einversor16
-R37
+R0
 R1
 R2
-R22
-Z114 8../../C-UnidadeLogicaAritmetica/src/rtl/inversor16.vhd
-Z115 F../../C-UnidadeLogicaAritmetica/src/rtl/inversor16.vhd
+R3
+Z99 8../../C-UnidadeLogicaAritmetica/src/rtl/inversor16.vhd
+Z100 F../../C-UnidadeLogicaAritmetica/src/rtl/inversor16.vhd
 l0
 L8
 V]YYC`D6QUX^Y?]>Fk>XYB2
 !s100 DO=@n^nGVg3J<NEg@^<i10
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R25
-R26
+R8
+R9
+R10
 !i113 1
 R11
 R12
@@ -1109,32 +1108,32 @@ VajlE5nJYi@n[=@SJkNUMY3
 !s100 >JM6Ea3foZH=lcBY7XdV53
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R25
-R26
+R8
+R9
+R10
 !i113 1
 R11
 R12
 Eled
-Z116 w1555714751
+Z101 w1555714751
 R1
 R2
-R22
-Z117 8../src/rtl/LED.vhd
-Z118 F../src/rtl/LED.vhd
+R15
+Z102 8../src/rtl/LED.vhd
+Z103 F../src/rtl/LED.vhd
 l0
 L9
 Vl2:=W8c549co3DSdGN6:B1
 !s100 <[CYCMXk:A8b2CE>d>HBZ0
 R6
 32
-Z119 !s110 1584108074
+Z104 !s110 1584108074
 !i10b 1
-Z120 !s108 1584108074.000000
-Z121 !s90 -reportprogress|300|-work|work|../src/rtl/CPU.vhd|../src/rtl/Computador.vhd|../src/rtl/ControlUnit.vhd|../src/rtl/LED.vhd|../src/rtl/MemoryIO.vhd|../src/rtl/SW.vhd|
-Z122 !s107 ../src/rtl/SW.vhd|../src/rtl/MemoryIO.vhd|../src/rtl/LED.vhd|../src/rtl/ControlUnit.vhd|../src/rtl/Computador.vhd|../src/rtl/CPU.vhd|
+Z105 !s108 1584108074.000000
+Z106 !s90 -reportprogress|300|-work|work|../src/rtl/CPU.vhd|../src/rtl/Computador.vhd|../src/rtl/ControlUnit.vhd|../src/rtl/LED.vhd|../src/rtl/MemoryIO.vhd|../src/rtl/SW.vhd|
+Z107 !s107 ../src/rtl/SW.vhd|../src/rtl/MemoryIO.vhd|../src/rtl/LED.vhd|../src/rtl/ControlUnit.vhd|../src/rtl/Computador.vhd|../src/rtl/CPU.vhd|
 !i113 1
 R11
 R12
@@ -1148,38 +1147,77 @@ VRBlz?8d22kMk8h<D_AkHa0
 !s100 YhzAD7bk4zIdQ;c[gT53f1
 R6
 32
-R119
+R104
 !i10b 1
-R120
-R121
-R122
+R105
+R106
+R107
+!i113 1
+R11
+R12
+Eleftshift
+R18
+R1
+R2
+R3
+Z108 8../../C-UnidadeLogicaAritmetica/src/rtl/leftShift.vhd
+Z109 F../../C-UnidadeLogicaAritmetica/src/rtl/leftShift.vhd
+l0
+L4
+V7h_ge`0:SST_8IlZkLgX[1
+!s100 Wd4:;d7@MPN_=8U5[O2Tl2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 9 leftshift 0 22 7h_ge`0:SST_8IlZkLgX[1
+l17
+L12
+V:<z;c:bo;eVMdjj7H=@NQ1
+!s100 2:=8iYb`7S;19JLE6zoeb0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
 !i113 1
 R11
 R12
 Ememoryio
-Z123 w1569334431
-R34
+R46
+R27
 R1
 R2
-R22
-Z124 8../src/rtl/MemoryIO.vho
-Z125 F../src/rtl/MemoryIO.vho
+R3
+Z110 8../src/rtl/MemoryIO.vho
+Z111 F../src/rtl/MemoryIO.vho
 l0
 L5
 VaFblU4j1[O[cMBWo]>9UA1
 !s100 RObiPS^UW];`1Te<BzT5J0
 R6
 32
-R23
+R7
 !i10b 1
-R24
-Z126 !s90 -reportprogress|300|-work|work|../src/rtl/MemoryIO.vho|
-Z127 !s107 ../src/rtl/MemoryIO.vho|
+R8
+Z112 !s90 -reportprogress|300|-work|work|../src/rtl/MemoryIO.vho|
+Z113 !s107 ../src/rtl/MemoryIO.vho|
 !i113 1
 R11
 R12
 Alogic
-R34
+R27
 R1
 R2
 DEx4 work 8 memoryio 0 22 aFblU4j1[O[cMBWo]>9UA1
@@ -1189,21 +1227,21 @@ VI4Q3N?6ZM]:9^0f2^Fzc^1
 !s100 SVXSdCh?^Y<ClMU`gcdPj2
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R126
-R127
+R8
+R112
+R113
 !i113 1
 R11
 R12
 Emux16
-R16
+Z114 w1587576913
 R1
 R2
 R3
-Z128 8../../B-LogicaCombinacional/src/rtl/Mux16.vhd
-Z129 F../../B-LogicaCombinacional/src/rtl/Mux16.vhd
+Z115 8../../B-LogicaCombinacional/src/rtl/Mux16.vhd
+Z116 F../../B-LogicaCombinacional/src/rtl/Mux16.vhd
 l0
 L4
 V[o>4?eYfYmLn`?RlJDTjW2
@@ -1212,9 +1250,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -1230,19 +1268,19 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
 Emux2way
-R0
+R18
 R1
 R2
 R3
-Z130 8../../B-LogicaCombinacional/src/rtl/Mux2Way.vhd
-Z131 F../../B-LogicaCombinacional/src/rtl/Mux2Way.vhd
+Z117 8../../B-LogicaCombinacional/src/rtl/Mux2Way.vhd
+Z118 F../../B-LogicaCombinacional/src/rtl/Mux2Way.vhd
 l0
 L4
 V7]FOEOF?_X?VLVT[SRYQo1
@@ -1251,9 +1289,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -1269,19 +1307,58 @@ R6
 32
 R7
 !i10b 1
+R21
+R22
+R23
+!i113 1
+R11
+R12
+Emux2way16
+R114
+R1
+R2
+R3
+Z119 8../../D-LogicaSequencial/src/rtl/Mux2Way16.vhd
+Z120 F../../D-LogicaSequencial/src/rtl/Mux2Way16.vhd
+l0
+L4
+VLJCU?FeVSc=@ZZb5J8UDW0
+!s100 ngn5GEcJ<E::FHbabIjo80
+R6
+32
+R7
+!i10b 1
 R8
-R29
-R30
+R40
+R41
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 9 mux2way16 0 22 LJCU?FeVSc=@ZZb5J8UDW0
+l14
+L13
+Vg=aWA`<KCW9>K]B;YP0V51
+!s100 gQUOmR;IPDLmM0_I_<o3Q3
+R6
+32
+R7
+!i10b 1
+R8
+R40
+R41
 !i113 1
 R11
 R12
 Emux4way
-R0
+R18
 R1
 R2
 R3
-Z132 8../../B-LogicaCombinacional/src/rtl/Mux4Way.vhd
-Z133 F../../B-LogicaCombinacional/src/rtl/Mux4Way.vhd
+Z121 8../../B-LogicaCombinacional/src/rtl/Mux4Way.vhd
+Z122 F../../B-LogicaCombinacional/src/rtl/Mux4Way.vhd
 l0
 L4
 VnPbDK?VYZj@2<B[H58dZg0
@@ -1290,9 +1367,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -1308,19 +1385,19 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
 Emux4way16
-R0
+R18
 R1
 R2
 R3
-Z134 8../../B-LogicaCombinacional/src/rtl/Mux4Way16.vhd
-Z135 F../../B-LogicaCombinacional/src/rtl/Mux4Way16.vhd
+Z123 8../../B-LogicaCombinacional/src/rtl/Mux4Way16.vhd
+Z124 F../../B-LogicaCombinacional/src/rtl/Mux4Way16.vhd
 l0
 L4
 V=@KXI_bZn7miY8I]19^BO1
@@ -1329,9 +1406,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -1347,19 +1424,19 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
 Emux8way
-R0
+R18
 R1
 R2
 R3
-Z136 8../../B-LogicaCombinacional/src/rtl/Mux8Way.vhd
-Z137 F../../B-LogicaCombinacional/src/rtl/Mux8Way.vhd
+Z125 8../../B-LogicaCombinacional/src/rtl/Mux8Way.vhd
+Z126 F../../B-LogicaCombinacional/src/rtl/Mux8Way.vhd
 l0
 L4
 ViUUi6c0HH:8U1T9PEhz_10
@@ -1368,9 +1445,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -1386,19 +1463,19 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
 Emux8way16
-R0
+R18
 R1
 R2
 R3
-Z138 8../../B-LogicaCombinacional/src/rtl/Mux8Way16.vhd
-Z139 F../../B-LogicaCombinacional/src/rtl/Mux8Way16.vhd
+Z127 8../../B-LogicaCombinacional/src/rtl/Mux8Way16.vhd
+Z128 F../../B-LogicaCombinacional/src/rtl/Mux8Way16.vhd
 l0
 L4
 VMUN79Edg7N];;]VWdDM]J1
@@ -1407,9 +1484,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -1425,30 +1502,30 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
 Enand_vhdl
-Z140 w1545310029
+Z129 w1545310029
 R1
 R2
-Z141 d/home/corsi/work/Z01/Z01.1-priv-2019a/Projetos/G-Computador/Z01-Simulator-RTL
-Z142 8../../C-LogicaCombinacional/src/rtl/Nand.vhd
-Z143 F../../C-LogicaCombinacional/src/rtl/Nand.vhd
+Z130 d/home/corsi/work/Z01/Z01.1-priv-2019a/Projetos/G-Computador/Z01-Simulator-RTL
+Z131 8../../C-LogicaCombinacional/src/rtl/Nand.vhd
+Z132 F../../C-LogicaCombinacional/src/rtl/Nand.vhd
 l0
 L8
 VA_FQ10U8:l_B999;aAIYP0
 !s100 CZJEcmlXE4T3N`LKR?40F1
 R6
 32
-Z144 !s110 1584025841
+Z133 !s110 1584025841
 !i10b 1
-Z145 !s108 1584025841.000000
-Z146 !s90 -reportprogress|300|-work|work|../../C-LogicaCombinacional/src/rtl/And16.vhd|../../C-LogicaCombinacional/src/rtl/BarrelShifter16.vhd|../../C-LogicaCombinacional/src/rtl/BarrelShifter8.vhd|../../C-LogicaCombinacional/src/rtl/DMux2Way.vhd|../../C-LogicaCombinacional/src/rtl/DMux4Way.vhd|../../C-LogicaCombinacional/src/rtl/DMux8Way.vhd|../../C-LogicaCombinacional/src/rtl/DMux8Way16.vhd|../../C-LogicaCombinacional/src/rtl/Mux16.vhd|../../C-LogicaCombinacional/src/rtl/Mux2Way.vhd|../../C-LogicaCombinacional/src/rtl/Mux4Way.vhd|../../C-LogicaCombinacional/src/rtl/Mux4Way16.vhd|../../C-LogicaCombinacional/src/rtl/Mux8Way.vhd|../../C-LogicaCombinacional/src/rtl/Mux8Way16.vhd|../../C-LogicaCombinacional/src/rtl/Nand.vhd|../../C-LogicaCombinacional/src/rtl/Nor8Way.vhd|../../C-LogicaCombinacional/src/rtl/Not16.vhd|../../C-LogicaCombinacional/src/rtl/Or16.vhd|../../C-LogicaCombinacional/src/rtl/Or8Way.vhd|
-Z147 !s107 ../../C-LogicaCombinacional/src/rtl/Or8Way.vhd|../../C-LogicaCombinacional/src/rtl/Or16.vhd|../../C-LogicaCombinacional/src/rtl/Not16.vhd|../../C-LogicaCombinacional/src/rtl/Nor8Way.vhd|../../C-LogicaCombinacional/src/rtl/Nand.vhd|../../C-LogicaCombinacional/src/rtl/Mux8Way16.vhd|../../C-LogicaCombinacional/src/rtl/Mux8Way.vhd|../../C-LogicaCombinacional/src/rtl/Mux4Way16.vhd|../../C-LogicaCombinacional/src/rtl/Mux4Way.vhd|../../C-LogicaCombinacional/src/rtl/Mux2Way.vhd|../../C-LogicaCombinacional/src/rtl/Mux16.vhd|../../C-LogicaCombinacional/src/rtl/DMux8Way16.vhd|../../C-LogicaCombinacional/src/rtl/DMux8Way.vhd|../../C-LogicaCombinacional/src/rtl/DMux4Way.vhd|../../C-LogicaCombinacional/src/rtl/DMux2Way.vhd|../../C-LogicaCombinacional/src/rtl/BarrelShifter8.vhd|../../C-LogicaCombinacional/src/rtl/BarrelShifter16.vhd|../../C-LogicaCombinacional/src/rtl/And16.vhd|
+Z134 !s108 1584025841.000000
+Z135 !s90 -reportprogress|300|-work|work|../../C-LogicaCombinacional/src/rtl/And16.vhd|../../C-LogicaCombinacional/src/rtl/BarrelShifter16.vhd|../../C-LogicaCombinacional/src/rtl/BarrelShifter8.vhd|../../C-LogicaCombinacional/src/rtl/DMux2Way.vhd|../../C-LogicaCombinacional/src/rtl/DMux4Way.vhd|../../C-LogicaCombinacional/src/rtl/DMux8Way.vhd|../../C-LogicaCombinacional/src/rtl/DMux8Way16.vhd|../../C-LogicaCombinacional/src/rtl/Mux16.vhd|../../C-LogicaCombinacional/src/rtl/Mux2Way.vhd|../../C-LogicaCombinacional/src/rtl/Mux4Way.vhd|../../C-LogicaCombinacional/src/rtl/Mux4Way16.vhd|../../C-LogicaCombinacional/src/rtl/Mux8Way.vhd|../../C-LogicaCombinacional/src/rtl/Mux8Way16.vhd|../../C-LogicaCombinacional/src/rtl/Nand.vhd|../../C-LogicaCombinacional/src/rtl/Nor8Way.vhd|../../C-LogicaCombinacional/src/rtl/Not16.vhd|../../C-LogicaCombinacional/src/rtl/Or16.vhd|../../C-LogicaCombinacional/src/rtl/Or8Way.vhd|
+Z136 !s107 ../../C-LogicaCombinacional/src/rtl/Or8Way.vhd|../../C-LogicaCombinacional/src/rtl/Or16.vhd|../../C-LogicaCombinacional/src/rtl/Not16.vhd|../../C-LogicaCombinacional/src/rtl/Nor8Way.vhd|../../C-LogicaCombinacional/src/rtl/Nand.vhd|../../C-LogicaCombinacional/src/rtl/Mux8Way16.vhd|../../C-LogicaCombinacional/src/rtl/Mux8Way.vhd|../../C-LogicaCombinacional/src/rtl/Mux4Way16.vhd|../../C-LogicaCombinacional/src/rtl/Mux4Way.vhd|../../C-LogicaCombinacional/src/rtl/Mux2Way.vhd|../../C-LogicaCombinacional/src/rtl/Mux16.vhd|../../C-LogicaCombinacional/src/rtl/DMux8Way16.vhd|../../C-LogicaCombinacional/src/rtl/DMux8Way.vhd|../../C-LogicaCombinacional/src/rtl/DMux4Way.vhd|../../C-LogicaCombinacional/src/rtl/DMux2Way.vhd|../../C-LogicaCombinacional/src/rtl/BarrelShifter8.vhd|../../C-LogicaCombinacional/src/rtl/BarrelShifter16.vhd|../../C-LogicaCombinacional/src/rtl/And16.vhd|
 !i113 1
 R11
 R12
@@ -1462,21 +1539,21 @@ Vcl]64UMIV[B@gF72mQB=f0
 !s100 AQhzoRTA0ffiRC10lTFGh0
 R6
 32
-R144
+R133
 !i10b 1
-R145
-R146
-R147
+R134
+R135
+R136
 !i113 1
 R11
 R12
 Enand_z01
-R31
+R24
 R1
 R2
 R3
-Z148 8../../B-LogicaCombinacional/src/rtl/Nand.vhd
-Z149 F../../B-LogicaCombinacional/src/rtl/Nand.vhd
+Z137 8../../B-LogicaCombinacional/src/rtl/Nand.vhd
+Z138 F../../B-LogicaCombinacional/src/rtl/Nand.vhd
 l0
 L4
 V:[<8XCRKN1Tf?c1nmMlP=3
@@ -1485,9 +1562,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -1503,19 +1580,19 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
 Enor8way
-R0
+R18
 R1
 R2
 R3
-Z150 8../../B-LogicaCombinacional/src/rtl/Nor8Way.vhd
-Z151 F../../B-LogicaCombinacional/src/rtl/Nor8Way.vhd
+Z139 8../../B-LogicaCombinacional/src/rtl/Nor8Way.vhd
+Z140 F../../B-LogicaCombinacional/src/rtl/Nor8Way.vhd
 l0
 L4
 VQQPBU@=<?Hcma5IUmA=of2
@@ -1524,9 +1601,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -1542,19 +1619,19 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
 Enot16
-R0
+R18
 R1
 R2
 R3
-Z152 8../../B-LogicaCombinacional/src/rtl/Not16.vhd
-Z153 F../../B-LogicaCombinacional/src/rtl/Not16.vhd
+Z141 8../../B-LogicaCombinacional/src/rtl/Not16.vhd
+Z142 F../../B-LogicaCombinacional/src/rtl/Not16.vhd
 l0
 L4
 VKJmDV0ijFPRKkO_ZT:nlf2
@@ -1563,9 +1640,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -1581,19 +1658,19 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
 Eor16
-R0
+R18
 R1
 R2
 R3
-Z154 8../../B-LogicaCombinacional/src/rtl/or16.vhd
-Z155 F../../B-LogicaCombinacional/src/rtl/or16.vhd
+Z143 8../../B-LogicaCombinacional/src/rtl/or16.vhd
+Z144 F../../B-LogicaCombinacional/src/rtl/or16.vhd
 l0
 L4
 V10hWdB5Z1__:=`LiS`7lc2
@@ -1602,9 +1679,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -1620,19 +1697,19 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
 Eor8way
-R0
+R18
 R1
 R2
 R3
-Z156 8../../B-LogicaCombinacional/src/rtl/Or8Way.vhd
-Z157 F../../B-LogicaCombinacional/src/rtl/Or8Way.vhd
+Z145 8../../B-LogicaCombinacional/src/rtl/Or8Way.vhd
+Z146 F../../B-LogicaCombinacional/src/rtl/Or8Way.vhd
 l0
 L4
 VdfoKi?IzCmIFUGR^4]>QR2
@@ -1641,9 +1718,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -1659,71 +1736,71 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
 Epc
-R37
-R34
+R114
+R27
 R1
 R2
-R22
-Z158 8../../D-LogicaSequencial/src/rtl/PC.vhd
-Z159 F../../D-LogicaSequencial/src/rtl/PC.vhd
+R3
+Z147 8../../D-LogicaSequencial/src/rtl/PC.vhd
+Z148 F../../D-LogicaSequencial/src/rtl/PC.vhd
 l0
-L16
-V;jL3g1m27CXAUc955KQK[1
-!s100 [X=gb6SiLihcOc_HL>:i<2
+L22
+VRV4aeih<U3SU8UW3i0]O?0
+!s100 YeN0B@KXBE?iIGzSnQfz70
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R47
-R48
+R8
+R40
+R41
 !i113 1
 R11
 R12
 Aarch
-R34
+R27
 R1
 R2
-DEx4 work 2 pc 0 22 ;jL3g1m27CXAUc955KQK[1
-l47
-L27
-VYljPkPz6fXEacCVnh^>:P3
-!s100 =WZkleJmNS1Kn]9P9UiA^1
+DEx4 work 2 pc 0 22 RV4aeih<U3SU8UW3i0]O?0
+l70
+L35
+VPLcoB=J=6kH;L3jDWbOmX0
+!s100 V?n0FJfnda;?CGCSoUoUi2
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R47
-R48
+R8
+R40
+R41
 !i113 1
 R11
 R12
 Epll
-Z160 w1584103905
+R46
 R1
 R2
-R22
-Z161 8../src/rtl/Dispositivos/PLL/PLL_sim/PLL.vho
-Z162 F../src/rtl/Dispositivos/PLL/PLL_sim/PLL.vho
+R3
+Z149 8../src/rtl/Dispositivos/PLL/PLL_sim/PLL.vho
+Z150 F../src/rtl/Dispositivos/PLL/PLL_sim/PLL.vho
 l0
 L27
 V=bNF2]g@dOG`TlQ>M101X1
 !s100 FVjY3:j;NIKmkE_MY1]EV0
 R6
 32
-R23
+R7
 !i10b 1
-R24
-Z163 !s90 -reportprogress|300|-work|work|../src/rtl/Dispositivos/PLL/PLL_sim/PLL.vho|
-Z164 !s107 ../src/rtl/Dispositivos/PLL/PLL_sim/PLL.vho|
+R8
+Z151 !s90 -reportprogress|300|-work|work|../src/rtl/Dispositivos/PLL/PLL_sim/PLL.vho|
+Z152 !s107 ../src/rtl/Dispositivos/PLL/PLL_sim/PLL.vho|
 !i113 1
 R11
 R12
@@ -1737,38 +1814,38 @@ V6EEg6Z=DzaB]]FP_n3z[E0
 !s100 U8G__JCLP[]:ol^z<_RUF2
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R163
-R164
+R8
+R151
+R152
 !i113 1
 R11
 R12
 Eram16k
-Z165 w1584106153
-Z166 DPx9 altera_mf 20 altera_mf_components 0 22 gV:l9C^?PSb6]b5V?_jR@3
+R46
+Z153 DPx9 altera_mf 20 altera_mf_components 0 22 gV:l9C^?PSb6]b5V?_jR@3
 R1
 R2
-R22
-Z167 8../src/rtl/Dispositivos/RAM/RAM16K.vho
-Z168 F../src/rtl/Dispositivos/RAM/RAM16K.vho
+R3
+Z154 8../src/rtl/Dispositivos/RAM/RAM16K.vho
+Z155 F../src/rtl/Dispositivos/RAM/RAM16K.vho
 l0
 L43
 V?W3fU8AJPJ2S[;=PMJaMU1
 !s100 Pe>;JD`:?:`O3@C?zeRZV0
 R6
 32
-R23
+R7
 !i10b 1
-R24
-Z169 !s90 -reportprogress|300|-work|work|../src/rtl/Dispositivos/RAM/RAM16K.vho|../src/rtl/Dispositivos/RAM/RAM32K.vho|
-Z170 !s107 ../src/rtl/Dispositivos/RAM/RAM32K.vho|../src/rtl/Dispositivos/RAM/RAM16K.vho|
+R8
+Z156 !s90 -reportprogress|300|-work|work|../src/rtl/Dispositivos/RAM/RAM16K.vho|../src/rtl/Dispositivos/RAM/RAM32K.vho|
+Z157 !s107 ../src/rtl/Dispositivos/RAM/RAM32K.vho|../src/rtl/Dispositivos/RAM/RAM16K.vho|
 !i113 1
 R11
 R12
 Asyn
-R166
+R153
 R1
 R2
 DEx4 work 6 ram16k 0 22 ?W3fU8AJPJ2S[;=PMJaMU1
@@ -1778,38 +1855,38 @@ VHVVU?WRO;S54PX[0FX@@_0
 !s100 a1[;a0YD4?OYG@<KKKFiD3
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R169
-R170
+R8
+R156
+R157
 !i113 1
 R11
 R12
 Eram32k
-Z171 w1569334770
-R166
+R46
+R153
 R1
 R2
-R22
-Z172 8../src/rtl/Dispositivos/RAM/RAM32K.vho
-Z173 F../src/rtl/Dispositivos/RAM/RAM32K.vho
+R3
+Z158 8../src/rtl/Dispositivos/RAM/RAM32K.vho
+Z159 F../src/rtl/Dispositivos/RAM/RAM32K.vho
 l0
 L43
 VZz90P3gMlXY<Y^0ZI4JhN2
 !s100 gHKS[J7KSXWja8?lC_GIM0
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R169
-R170
+R8
+R156
+R157
 !i113 1
 R11
 R12
 Asyn
-R166
+R153
 R1
 R2
 DEx4 work 6 ram32k 0 22 Zz90P3gMlXY<Y^0ZI4JhN2
@@ -1819,32 +1896,32 @@ VZKcceD7o?f8d3Fb_2IGQ]2
 !s100 9mU84TiDOTSUQM:VaX_d>3
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R169
-R170
+R8
+R156
+R157
 !i113 1
 R11
 R12
 Eram4k
-R37
+R114
 R1
 R2
-R22
-Z174 8../../D-LogicaSequencial/src/rtl/Ram4K.vhd
-Z175 F../../D-LogicaSequencial/src/rtl/Ram4K.vhd
+R3
+Z160 8../../D-LogicaSequencial/src/rtl/Ram4K.vhd
+Z161 F../../D-LogicaSequencial/src/rtl/Ram4K.vhd
 l0
 L8
 V2RJ7Uok0a9@l?<IZKM:hW0
 !s100 ESk?XNEfJCWi[LAlUVY:i3
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R47
-R48
+R8
+R40
+R41
 !i113 1
 R11
 R12
@@ -1854,36 +1931,36 @@ R2
 DEx4 work 5 ram4k 0 22 2RJ7Uok0a9@l?<IZKM:hW0
 l61
 L18
-Va1JR_19haXgV1OX>GB`U71
-!s100 F5OZO<Yb[h5e9kk^O@lc:3
+V5YAMf3TRCoEhbT[h9ALDl1
+!s100 9OCb51z7l_i>n86I;]I563
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R47
-R48
+R8
+R40
+R41
 !i113 1
 R11
 R12
 Eram512
-R37
+R114
 R1
 R2
-R22
-Z176 8../../D-LogicaSequencial/src/rtl/Ram512.vhd
-Z177 F../../D-LogicaSequencial/src/rtl/Ram512.vhd
+R3
+Z162 8../../D-LogicaSequencial/src/rtl/Ram512.vhd
+Z163 F../../D-LogicaSequencial/src/rtl/Ram512.vhd
 l0
 L8
 VXBT5[VikKknDFdaNSFR:72
 !s100 1@Ji=O6R2bCM?3<4JVEVe1
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R47
-R48
+R8
+R40
+R41
 !i113 1
 R11
 R12
@@ -1893,36 +1970,36 @@ R2
 DEx4 work 6 ram512 0 22 XBT5[VikKknDFdaNSFR:72
 l61
 L18
-VObGa:@2H[R><5`:Mc7AK<2
-!s100 XzR1Ng9SLC63n9F^LAPDK2
+VV763Se^J5GMGMK;JOmMh[1
+!s100 DEITjF]A0M6f8nbXJC<Ao3
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R47
-R48
+R8
+R40
+R41
 !i113 1
 R11
 R12
 Eram64
-R37
+R114
 R1
 R2
-R22
-Z178 8../../D-LogicaSequencial/src/rtl/Ram64.vhd
-Z179 F../../D-LogicaSequencial/src/rtl/Ram64.vhd
+R3
+Z164 8../../D-LogicaSequencial/src/rtl/Ram64.vhd
+Z165 F../../D-LogicaSequencial/src/rtl/Ram64.vhd
 l0
 L8
 VRB5`ZMb2VWX7JTI]b6`]_1
 !s100 gg_:9eMG?gXI@fHk9bKn=3
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R47
-R48
+R8
+R40
+R41
 !i113 1
 R11
 R12
@@ -1932,36 +2009,36 @@ R2
 DEx4 work 5 ram64 0 22 RB5`ZMb2VWX7JTI]b6`]_1
 l61
 L18
-VnFR<4I_j;LTYlG;`UAje12
-!s100 f`4K:a]iHJPzjUcERI`_C0
+V1ch]ae2a4UhY6c9lejEC^2
+!s100 U_Bl8_>zH4VEU3P[nXzN61
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R47
-R48
+R8
+R40
+R41
 !i113 1
 R11
 R12
 Eram8
-R37
+R18
 R1
 R2
-R22
-Z180 8../../D-LogicaSequencial/src/rtl/Ram8.vhd
-Z181 F../../D-LogicaSequencial/src/rtl/Ram8.vhd
+R3
+Z166 8../../D-LogicaSequencial/src/rtl/Ram8.vhd
+Z167 F../../D-LogicaSequencial/src/rtl/Ram8.vhd
 l0
 L8
 VJ^dIlVa1jaALNOH@HK];a0
 !s100 R5mZ`al9n>P1>n^5Jl6z_1
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R47
-R48
+R8
+R40
+R41
 !i113 1
 R11
 R12
@@ -1971,36 +2048,36 @@ R2
 DEx4 work 4 ram8 0 22 J^dIlVa1jaALNOH@HK];a0
 l60
 L18
-V9z9Wi7YRH<lna4iEK5HW50
-!s100 5iQlgZ5K?8>hK<5iRWRVg3
+VPbceka`2oVhPaSjWzhA9U2
+!s100 eYCZ1HQM]7GG@m=4ChI?M1
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R47
-R48
+R8
+R40
+R41
 !i113 1
 R11
 R12
 Eregister16
-R37
+R18
 R1
 R2
-R22
-Z182 8../../D-LogicaSequencial/src/rtl/Register16.vhd
-Z183 F../../D-LogicaSequencial/src/rtl/Register16.vhd
+R3
+Z168 8../../D-LogicaSequencial/src/rtl/Register16.vhd
+Z169 F../../D-LogicaSequencial/src/rtl/Register16.vhd
 l0
 L8
 VdPHb?7e0DI[EP9TiUYga@0
 !s100 n^CUeJ^:id2hXcoBoB>TS3
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R47
-R48
+R8
+R40
+R41
 !i113 1
 R11
 R12
@@ -2010,36 +2087,36 @@ R2
 DEx4 work 10 register16 0 22 dPHb?7e0DI[EP9TiUYga@0
 l28
 L17
-Vm^;A`UW1S3KnbE[>dZa0=3
-!s100 AOZelIhB;J@PbGOd>8?Ej3
+VjGf?F^6OzgU8^Y_gP93Kb1
+!s100 CZJHbFM`NBFUkU3KP`ZJX2
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R47
-R48
+R8
+R40
+R41
 !i113 1
 R11
 R12
 Eregister32
-R37
+R18
 R1
 R2
-R22
-Z184 8../../D-LogicaSequencial/src/rtl/Register32.vhd
-Z185 F../../D-LogicaSequencial/src/rtl/Register32.vhd
+R3
+Z170 8../../D-LogicaSequencial/src/rtl/Register32.vhd
+Z171 F../../D-LogicaSequencial/src/rtl/Register32.vhd
 l0
 L8
 VDcNSWzoRLc5DJn@UbWZR]1
 !s100 []:^=AY8a3]ML1PkdZ@Ea3
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R47
-R48
+R8
+R40
+R41
 !i113 1
 R11
 R12
@@ -2049,36 +2126,36 @@ R2
 DEx4 work 10 register32 0 22 DcNSWzoRLc5DJn@UbWZR]1
 l28
 L17
-VDY7Hd@1oa;L[bI1f^F`z90
-!s100 8SM=XmRGzeAlZ@6ZRD8oO1
+VC_>UCHKJ;M1;hbm=3EdGi2
+!s100 Oz<XmT@g0O_]Id1fne:Fc1
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R47
-R48
+R8
+R40
+R41
 !i113 1
 R11
 R12
 Eregister64
-R37
+R18
 R1
 R2
-R22
-Z186 8../../D-LogicaSequencial/src/rtl/Register64.vhd
-Z187 F../../D-LogicaSequencial/src/rtl/Register64.vhd
+R3
+Z172 8../../D-LogicaSequencial/src/rtl/Register64.vhd
+Z173 F../../D-LogicaSequencial/src/rtl/Register64.vhd
 l0
 L8
 V_31lC;H>Rg3UQ9VWdSY_A3
 !s100 LCbS]1neA;d2ePolK?XW]3
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R47
-R48
+R8
+R40
+R41
 !i113 1
 R11
 R12
@@ -2088,36 +2165,36 @@ R2
 DEx4 work 10 register64 0 22 _31lC;H>Rg3UQ9VWdSY_A3
 l28
 L17
-Vf^dD0Ljc2I8Qe:LS5Xgn01
-!s100 eoNRD>kBXYXY9F;NKD1`<3
+VI24d3H3ElL_P_o:1bT`zd2
+!s100 Si]EDVINNeZEiGzzdNR2S2
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R47
-R48
+R8
+R40
+R41
 !i113 1
 R11
 R12
 Eregister8
-R37
+R18
 R1
 R2
-R22
-Z188 8../../D-LogicaSequencial/src/rtl/Register8.vhd
-Z189 F../../D-LogicaSequencial/src/rtl/Register8.vhd
+R3
+Z174 8../../D-LogicaSequencial/src/rtl/Register8.vhd
+Z175 F../../D-LogicaSequencial/src/rtl/Register8.vhd
 l0
 L8
 VI9bFH32^`LLZl1[jmYL2B1
 !s100 RH;m?0bQIi^ohZMhS9XdS0
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R47
-R48
+R8
+R40
+R41
 !i113 1
 R11
 R12
@@ -2125,44 +2202,83 @@ Aarch
 R1
 R2
 DEx4 work 9 register8 0 22 I9bFH32^`LLZl1[jmYL2B1
-l28
+l29
 L17
-VDT2n]Fn3QznLY2<TVg^hg0
-!s100 [hh@dVFaIT?QBbf]lTB9j0
+VY_cBkbZH41GIGc:GC>]dD1
+!s100 8a5An_oKQ56NfbM253>iX3
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R47
-R48
+R8
+R40
+R41
+!i113 1
+R11
+R12
+Erightshift
+R18
+R1
+R2
+R3
+Z176 8../../C-UnidadeLogicaAritmetica/src/rtl/rightShift.vhd
+Z177 F../../C-UnidadeLogicaAritmetica/src/rtl/rightShift.vhd
+l0
+L4
+VOn596nDQ=fVbWPAWc`1lb3
+!s100 cf?AD^Y>D:VkOHN`WR3E00
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 10 rightshift 0 22 On596nDQ=fVbWPAWc`1lb3
+l16
+L11
+Vhj>NS6:gj[F^K5<cF5[AF2
+!s100 >l2b6CY9ZVMiO<MOaZZ6R3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
 !i113 1
 R11
 R12
 Erom32k
-R83
-R166
+R46
+R153
 R1
 R2
-R22
-Z190 8../src/rtl/Dispositivos/ROM/ROM32K.vhd
-Z191 F../src/rtl/Dispositivos/ROM/ROM32K.vhd
+R3
+Z178 8../src/rtl/Dispositivos/ROM/ROM32K.vhd
+Z179 F../src/rtl/Dispositivos/ROM/ROM32K.vhd
 l0
 L42
 V<fW;YLE1`;5Xoa:JJ<BVl2
 !s100 PdIZzEKidFRj33Z2dLFY00
 R6
 32
-R23
+R7
 !i10b 1
-R24
-Z192 !s90 -reportprogress|300|-work|work|../src/rtl/Dispositivos/ROM/ROM32K.vhd|
-Z193 !s107 ../src/rtl/Dispositivos/ROM/ROM32K.vhd|
+R8
+Z180 !s90 -reportprogress|300|-work|work|../src/rtl/Dispositivos/ROM/ROM32K.vhd|
+Z181 !s107 ../src/rtl/Dispositivos/ROM/ROM32K.vhd|
 !i113 1
 R11
 R12
 Asyn
-R166
+R153
 R1
 R2
 DEx4 work 6 rom32k 0 22 <fW;YLE1`;5Xoa:JJ<BVl2
@@ -2172,42 +2288,42 @@ VOU<FNk_a::kImL^02n;:E1
 !s100 f8d55k74`7Y30K]zA2>iQ0
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R192
-R193
+R8
+R180
+R181
 !i113 1
 R11
 R12
 Escreen
-R83
-R41
-R42
+R46
 R34
+R35
+R27
 R1
 R2
-R22
-Z194 8../src/rtl/Dispositivos/Screen/Screen.vho
-Z195 F../src/rtl/Dispositivos/Screen/Screen.vho
+R3
+Z182 8../src/rtl/Dispositivos/Screen/Screen.vho
+Z183 F../src/rtl/Dispositivos/Screen/Screen.vho
 l0
 L7
 V@1Tn8IRUf@Z4_6OYbD><G1
 !s100 QI1MPGVz0LTl7ollmR;iT2
 R6
 32
-R23
+R7
 !i10b 1
-R24
-Z196 !s90 -reportprogress|300|-work|work|../src/rtl/Dispositivos/Screen/Screen.vho|
-Z197 !s107 ../src/rtl/Dispositivos/Screen/Screen.vho|
+R8
+Z184 !s90 -reportprogress|300|-work|work|../src/rtl/Dispositivos/Screen/Screen.vho|
+Z185 !s107 ../src/rtl/Dispositivos/Screen/Screen.vho|
 !i113 1
 R11
 R12
 Alogic
-R41
-R42
 R34
+R35
+R27
 R1
 R2
 DEx4 work 6 screen 0 22 @1Tn8IRUf@Z4_6OYbD><G1
@@ -2217,21 +2333,21 @@ V3ELK1::=VTZeQ88adLT7l2
 !s100 R80_hQdHa2:=2RHR;d6[C2
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R196
-R197
+R8
+R184
+R185
 !i113 1
 R11
 R12
 Esevenseg
-R16
+R114
 R1
 R2
 R3
-Z198 8../../B-LogicaCombinacional/src/rtl/sevenSeg.vhd
-Z199 F../../B-LogicaCombinacional/src/rtl/sevenSeg.vhd
+Z186 8../../B-LogicaCombinacional/src/rtl/sevenSeg.vhd
+Z187 F../../B-LogicaCombinacional/src/rtl/sevenSeg.vhd
 l0
 L4
 V@f5QLk>9`l[7jU4zA;ZE]3
@@ -2240,9 +2356,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
@@ -2258,30 +2374,30 @@ R6
 32
 R7
 !i10b 1
-R8
-R29
-R30
+R21
+R22
+R23
 !i113 1
 R11
 R12
 Esw
-R116
+R101
 R1
 R2
-R22
-Z200 8../src/rtl/SW.vhd
-Z201 F../src/rtl/SW.vhd
+R15
+Z188 8../src/rtl/SW.vhd
+Z189 F../src/rtl/SW.vhd
 l0
 L9
 VRZV=2cI`K;0nkH5N5e7SI3
 !s100 k07Bcm_J[fLNf_ZckOk]20
 R6
 32
-R119
+R104
 !i10b 1
-R120
-R121
-R122
+R105
+R106
+R107
 !i113 1
 R11
 R12
@@ -2295,32 +2411,32 @@ V7fa`>J:_h_0H0_5<;C34P2
 !s100 U3`nV550]^^in8USG9_zk0
 R6
 32
-R119
+R104
 !i10b 1
-R120
-R121
-R122
+R105
+R106
+R107
 !i113 1
 R11
 R12
 Ezerador16
-Z202 w1555465832
+R0
 R1
 R2
-R22
-Z203 8../../C-UnidadeLogicaAritmetica/src/rtl/zerador16.vhd
-Z204 F../../C-UnidadeLogicaAritmetica/src/rtl/zerador16.vhd
+R3
+Z190 8../../C-UnidadeLogicaAritmetica/src/rtl/zerador16.vhd
+Z191 F../../C-UnidadeLogicaAritmetica/src/rtl/zerador16.vhd
 l0
 L8
 V8d0KAF=B7=Z1QeP[[SleE2
 !s100 M:SFi;0VW=O3WB`Y<_SOm1
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R25
-R26
+R8
+R9
+R10
 !i113 1
 R11
 R12
@@ -2334,11 +2450,11 @@ V@;4]iCMb@jm2ccnP@k<;22
 !s100 AiicaomIgHhNQU6^e]Ick0
 R6
 32
-R23
+R7
 !i10b 1
-R24
-R25
-R26
+R8
+R9
+R10
 !i113 1
 R11
 R12

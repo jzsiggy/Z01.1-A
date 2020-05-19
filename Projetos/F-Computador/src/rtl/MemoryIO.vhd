@@ -26,7 +26,7 @@ entity MemoryIO is
         LCD_ON       : OUT   STD_LOGIC := '1';	-- liga e desliga o LCD
         LCD_INIT_OK  : OUT   STD_LOGIC;
 
-        -- Switchs
+        -- I/Os
         SW  : in std_logic_vector(9 downto 0);
         LED : OUT std_logic_vector(9 downto 0)
 
@@ -78,30 +78,33 @@ ARCHITECTURE logic OF MemoryIO IS
                 q   : out STD_LOGIC_VECTOR (15 downto 0));    -- output
   end component;
 
+  component Register16 is
+    port(
+      clock:   in STD_LOGIC;
+      input:   in STD_LOGIC_VECTOR(15 downto 0);
+      load:    in STD_LOGIC;
+      output: out STD_LOGIC_VECTOR(15 downto 0)
+      );
+  end component;
+
   SIGNAL LOAD_RAM         : STD_LOGIC := '0';
   SIGNAL LOAD_DISPLAY     : STD_LOGIC := '0';
+  SIGNAL LOAD_LED         : STD_LOGIC := '0';
 
   SIGNAL OUTPUT_RAM       : STD_LOGIC_VECTOR(15 downto 0);
-  SIGNAL OUTPUT_DISPLAY   : STD_LOGIC_VECTOR(15 downto 0);
-  SIGNAL MUX_SEL          : STD_LOGIC_VECTOR(1 downto 0);
-  SIGNAL MUX_SEL1         : STD_LOGIC;
-  SIGNAL MUX_SEL2         : STD_LOGIC;
-  SIGNAL KEY              : STD_LOGIC_VECTOR(15 downto 0);
-  SIGNAL s_key_code       : STD_LOGIC_VECTOR(6 DOWNTO 0);
-  SIGNAL s_key_new        : STD_LOGIC;
-
-	SIGNAL RST_INTERNAL     : STD_LOGIC := '1';
-
-	SIGNAL INPUT_INTERNAL   : STD_LOGIC_VECTOR(15 downto 0);
-	SIGNAL ADDRESS_INTERNAL : STD_LOGIC_VECTOR(14 downto 0);
-
-	SIGNAL LOAD_SCREEN      : STD_LOGIC := '0';
-	SIGNAL INPUT_SCREEN     : STD_LOGIC_VECTOR(15 downto 0);
-	SIGNAL ADDRESS_SCREEN   : STD_LOGIC_VECTOR(14 downto 0);
-
 	SIGNAL SW16 : STD_LOGIC_VECTOR(15 downto 0);
+	SIGNAL LED16 : STD_LOGIC_VECTOR(15 downto 0);
 
 BEGIN
+
+  RAM: RAM16K
+    PORT MAP(
+      address => ADDRESS(13 downto 0),
+      clock		=> CLK_FAST,
+      data		=> INPUT,
+      wren		=> LOAD_RAM,
+      q		    => OUTPUT_RAM
+      );
 
     DISPLAY: Screen  port map (
              RST          => RST,
@@ -120,5 +123,37 @@ BEGIN
              LCD_RS 	    => LCD_RS,
              LCD_WR_N 	  => LCD_WR_N
     );
+
+    reg:  Register16
+      port map(
+        clock => CLK_SLOW,
+        input => INPUT,
+        load  => LOAD_LED,
+        output => LED16
+        );
+
+    ----------------------------------------
+    -- Controla LOAD do display e da ram e LED ! --
+    ----------------------------------------
+    --LOAD_DISPLAY <= ??????; 
+    --LOAD_RAM     <= ??????; 
+    --LOAD_LED     <= ??????; 
+
+    ----------------------------------------
+    -- SW e LED                           --
+    ----------------------------------------
+    -- Compatibilidade de tamanho
+    LED <= LED16(9 downto 0);
+
+    -- Compatibilidade de tamanho
+    SW16(15 downto 10) <= (others => '0');
+    SW16( 9 DOWNTO  0) <= SW;
+
+    ----------------------------------------
+    -- SAIDA do memory I/O                --
+    ----------------------------------------
+    -- precisar ser: RAM ou SW16
+    -- OUTPUT <= ?????? ;
+
 
 END logic;
