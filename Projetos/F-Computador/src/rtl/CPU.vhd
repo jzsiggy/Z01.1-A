@@ -1,4 +1,4 @@
--- Elementos de Sistemas
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                -- Elementos de Sistemas
 -- developed by Luciano Soares
 -- file: CPU.vhd
 -- date: 4/4/2017
@@ -20,6 +20,15 @@ entity CPU is
 end entity;
 
 architecture arch of CPU is
+
+  component DMux2Way is
+    port (
+      a:   in  STD_LOGIC_VECTOR(15 downto 0);
+      sel: in  STD_LOGIC;
+      q0:   out STD_LOGIC_VECTOR(15 downto 0);
+      q1: out STD_LOGIC_VECTOR(15 downto 0)
+      );
+  end component;
 
   component Mux16 is
     port (
@@ -71,6 +80,8 @@ architecture arch of CPU is
       zr,ng                       : in STD_LOGIC;
       muxALUI_A                   : out STD_LOGIC;
       muxAM                       : out STD_LOGIC;
+      muxSD                       : out STD_LOGIC;
+      muxD                        : out STD_LOGIC;
       zx, nx, zy, ny, f, no       : out STD_LOGIC;
       loadA, loadD, loadM, loadPC : out STD_LOGIC
       );
@@ -78,6 +89,8 @@ architecture arch of CPU is
 
   signal c_muxALUI_A: STD_LOGIC;
   signal c_muxAM: STD_LOGIC;
+  signal c_muxSD: STD_LOGIC;
+  signal c_muxD: STD_LOGIC;
   signal c_zx: STD_LOGIC;
   signal c_nx: STD_LOGIC;
   signal c_zy: STD_LOGIC;
@@ -92,10 +105,11 @@ architecture arch of CPU is
 
   signal s_muxALUI_Aout: STD_LOGIC_VECTOR(15 downto 0);
   signal s_muxAM_out: STD_LOGIC_VECTOR(15 downto 0);
+  signal s_muxSD_out: STD_LOGIC_VECTOR(15 downto 0);
+  signal s_muxD_out: STD_LOGIC_VECTOR(15 downto 0);
   signal s_regAout: STD_LOGIC_VECTOR(15 downto 0);
   signal s_regDout: STD_LOGIC_VECTOR(15 downto 0);
   signal s_ALUout: STD_LOGIC_VECTOR(15 downto 0);
-
   signal s_pcout: STD_LOGIC_VECTOR(15 downto 0);
 
 begin
@@ -104,11 +118,17 @@ begin
   
   MuxAlui: Mux16 port map (s_ALUout, instruction(15 downto 0), c_muxALUI_A, s_muxALUI_Aout); --
   
-  MuxAm: Mux16 port map (s_regAout, inM, c_muxAM, s_muxAM_out); --
+  MuxAm: Mux16 port map (s_regAout, inM, c_muxAM, s_muxAM_out);
+  
+  MuxSD: Mux16 port map (entrada 1, s_regDout, Seletor, saida);
+  
+  MuxD: Mux16 port map (entrada 1, entrada 2, Seletor, saida);
   
   RegisterA: Register16 port map(clock, s_muxALUI_Aout, c_loadA, s_regAout); --
   
   RegisterD: Register16 port map(clock, s_ALUout, c_loadD, s_regDout); --
+  
+  RegisterS: Register16 port map(clock,8);
 
   ULA: ALU port map(s_regDout, s_muxAM_out, c_zx, c_nx, c_zy, c_ny, c_f, c_no, c_zr, c_ng, s_ALUout); --
 

@@ -1,10 +1,10 @@
-# do /home/borg/Documents/Insper/Z01.1-A/Projetos/F-Computador/Z01-Simulator-RTL/do/sim.do
+# do /home/borg/Z01.1-A/Projetos/F-Computador/Z01-Simulator-RTL/do/sim.do
 # 1
 # 1
 # 1
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:59:18 on May 15,2020
+# Start time: 15:16:36 on May 21,2020
 # vcom -reportprogress 300 -work work ../../B-LogicaCombinacional/src/rtl/And16.vhd ../../B-LogicaCombinacional/src/rtl/BarrelShifter16.vhd ../../B-LogicaCombinacional/src/rtl/DMux2Way.vhd ../../B-LogicaCombinacional/src/rtl/DMux4Way.vhd ../../B-LogicaCombinacional/src/rtl/DMux8Way.vhd ../../B-LogicaCombinacional/src/rtl/Mux16.vhd ../../B-LogicaCombinacional/src/rtl/Mux2Way.vhd ../../B-LogicaCombinacional/src/rtl/Mux4Way.vhd ../../B-LogicaCombinacional/src/rtl/Mux4Way16.vhd ../../B-LogicaCombinacional/src/rtl/Mux8Way.vhd ../../B-LogicaCombinacional/src/rtl/Mux8Way16.vhd ../../B-LogicaCombinacional/src/rtl/Nand.vhd ../../B-LogicaCombinacional/src/rtl/Nor8Way.vhd ../../B-LogicaCombinacional/src/rtl/Not16.vhd ../../B-LogicaCombinacional/src/rtl/Or16.vhd ../../B-LogicaCombinacional/src/rtl/Or8Way.vhd ../../B-LogicaCombinacional/src/rtl/binarioToBcd.vhd ../../B-LogicaCombinacional/src/rtl/circuito.vhd ../../B-LogicaCombinacional/src/rtl/detectorDeMoedas.vhd ../../B-LogicaCombinacional/src/rtl/impressora.vhd ../../B-LogicaCombinacional/src/rtl/or16.vhd ../../B-LogicaCombinacional/src/rtl/sevenSeg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -55,10 +55,10 @@
 # -- Compiling architecture arch of Or16
 # -- Compiling entity sevenSeg
 # -- Compiling architecture arch of sevenSeg
-# End time: 08:59:19 on May 15,2020, Elapsed time: 0:00:01
+# End time: 15:16:36 on May 21,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:59:19 on May 15,2020
+# Start time: 15:16:36 on May 21,2020
 # vcom -reportprogress 300 -work work ../../C-UnidadeLogicaAritmetica/src/rtl/ALU.vhd ../../C-UnidadeLogicaAritmetica/src/rtl/Add16.vhd ../../C-UnidadeLogicaAritmetica/src/rtl/FullAdder.vhd ../../C-UnidadeLogicaAritmetica/src/rtl/HalfAdder.vhd ../../C-UnidadeLogicaAritmetica/src/rtl/Inc16.vhd ../../C-UnidadeLogicaAritmetica/src/rtl/comparador16.vhd ../../C-UnidadeLogicaAritmetica/src/rtl/inversor16.vhd ../../C-UnidadeLogicaAritmetica/src/rtl/leftShift.vhd ../../C-UnidadeLogicaAritmetica/src/rtl/rightShift.vhd ../../C-UnidadeLogicaAritmetica/src/rtl/zerador16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -83,10 +83,10 @@
 # -- Compiling architecture rtl of rightShift
 # -- Compiling entity zerador16
 # -- Compiling architecture rtl of zerador16
-# End time: 08:59:19 on May 15,2020, Elapsed time: 0:00:00
+# End time: 15:16:36 on May 21,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:59:19 on May 15,2020
+# Start time: 15:16:36 on May 21,2020
 # vcom -reportprogress 300 -work work ../../D-LogicaSequencial/src/rtl/BinaryDigit.vhd ../../D-LogicaSequencial/src/rtl/FlipFlopD.vhd ../../D-LogicaSequencial/src/rtl/Mux2Way16.vhd ../../D-LogicaSequencial/src/rtl/PC.vhd ../../D-LogicaSequencial/src/rtl/Ram4K.vhd ../../D-LogicaSequencial/src/rtl/Ram512.vhd ../../D-LogicaSequencial/src/rtl/Ram64.vhd ../../D-LogicaSequencial/src/rtl/Ram8.vhd ../../D-LogicaSequencial/src/rtl/Register16.vhd ../../D-LogicaSequencial/src/rtl/Register32.vhd ../../D-LogicaSequencial/src/rtl/Register64.vhd ../../D-LogicaSequencial/src/rtl/Register8.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -116,10 +116,10 @@
 # -- Compiling architecture arch of Register64
 # -- Compiling entity Register8
 # -- Compiling architecture arch of Register8
-# End time: 08:59:19 on May 15,2020, Elapsed time: 0:00:00
+# End time: 15:16:37 on May 21,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:59:19 on May 15,2020
+# Start time: 15:16:37 on May 21,2020
 # vcom -reportprogress 300 -work work ../src/rtl/MemoryIO.vho 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -127,30 +127,30 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity MemoryIO
 # -- Compiling architecture logic of MemoryIO
-# End time: 08:59:19 on May 15,2020, Elapsed time: 0:00:00
+# End time: 15:16:37 on May 21,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:59:19 on May 15,2020
+# Start time: 15:16:37 on May 21,2020
 # vcom -reportprogress 300 -work work ../src/rtl/ControlUnit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity ControlUnit
 # -- Compiling architecture arch of ControlUnit
-# End time: 08:59:19 on May 15,2020, Elapsed time: 0:00:00
+# End time: 15:16:37 on May 21,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:59:19 on May 15,2020
+# Start time: 15:16:37 on May 21,2020
 # vcom -reportprogress 300 -work work ../src/rtl/CPU.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity CPU
 # -- Compiling architecture arch of CPU
-# End time: 08:59:19 on May 15,2020, Elapsed time: 0:00:00
+# End time: 15:16:37 on May 21,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:59:19 on May 15,2020
+# Start time: 15:16:37 on May 21,2020
 # vcom -reportprogress 300 -work work ../src/rtl/Computador.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -158,20 +158,20 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity Computador
 # -- Compiling architecture logic of Computador
-# End time: 08:59:19 on May 15,2020, Elapsed time: 0:00:00
+# End time: 15:16:37 on May 21,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:59:19 on May 15,2020
+# Start time: 15:16:37 on May 21,2020
 # vcom -reportprogress 300 -work work ../src/rtl/Dispositivos/PLL/PLL_sim/PLL.vho 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity PLL
 # -- Compiling architecture RTL of PLL
-# End time: 08:59:19 on May 15,2020, Elapsed time: 0:00:00
+# End time: 15:16:37 on May 21,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:59:19 on May 15,2020
+# Start time: 15:16:37 on May 21,2020
 # vcom -reportprogress 300 -work work ../src/rtl/Dispositivos/RAM/RAM16K.vho ../src/rtl/Dispositivos/RAM/RAM32K.vho 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -181,10 +181,10 @@
 # -- Compiling architecture SYN of ram16k
 # -- Compiling entity ram32k
 # -- Compiling architecture SYN of ram32k
-# End time: 08:59:19 on May 15,2020, Elapsed time: 0:00:00
+# End time: 15:16:37 on May 21,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:59:19 on May 15,2020
+# Start time: 15:16:37 on May 21,2020
 # vcom -reportprogress 300 -work work ../src/rtl/Dispositivos/ROM/ROM32K.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -192,20 +192,20 @@
 # -- Loading package altera_mf_components
 # -- Compiling entity ROM32K
 # -- Compiling architecture SYN of rom32k
-# End time: 08:59:19 on May 15,2020, Elapsed time: 0:00:00
+# End time: 15:16:37 on May 21,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:59:19 on May 15,2020
+# Start time: 15:16:37 on May 21,2020
 # vcom -reportprogress 300 -work work ../src/rtl/Dispositivos/Screen/FIFO/FIFO16x4096.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity FIFO16x4096
 # -- Compiling architecture SYN of fifo16x4096
-# End time: 08:59:19 on May 15,2020, Elapsed time: 0:00:00
+# End time: 15:16:37 on May 21,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:59:19 on May 15,2020
+# Start time: 15:16:37 on May 21,2020
 # vcom -reportprogress 300 -work work ../src/rtl/Dispositivos/Screen/Screen.vho 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -215,10 +215,10 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity Screen
 # -- Compiling architecture logic of Screen
-# End time: 08:59:19 on May 15,2020, Elapsed time: 0:00:00
+# End time: 15:16:37 on May 21,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:59:19 on May 15,2020
+# Start time: 15:16:37 on May 21,2020
 # vcom -reportprogress 300 -work work ../tests/Computador_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -226,10 +226,10 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity Computador_tb
 # -- Compiling architecture rtl of Computador_tb
-# End time: 08:59:19 on May 15,2020, Elapsed time: 0:00:00
+# End time: 15:16:37 on May 21,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim work.computador_tb 
-# Start time: 08:59:19 on May 15,2020
+# Start time: 15:16:37 on May 21,2020
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -265,7 +265,7 @@
 # Loading altera_mf.altsyncram(translated)
 # Loading work.memoryio(logic)
 # Loading work.ram32k(syn)
-# ** Warning: Design size of 11113 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# ** Warning: Design size of 12062 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
 # Expect performance to be adversely affected.
 # ** Warning: (vsim-8683) Uninitialized out port /computador_tb/c1/MEMORY_MAPED/LCD_CS_N has no driver.
 # This port will contribute value (U) to the signal network.
@@ -284,48 +284,5 @@
 # ** Warning: (vsim-8683) Uninitialized out port /computador_tb/c1/MEMORY_MAPED/LED(9 downto 0) has no driver.
 # This port will contribute value (UUUUUUUUUU) to the signal network.
 # ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
+# End time: 15:16:38 on May 21,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 10
