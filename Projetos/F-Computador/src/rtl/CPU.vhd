@@ -71,13 +71,17 @@ architecture arch of CPU is
       zr,ng                       : in STD_LOGIC;
       muxALUI_A                   : out STD_LOGIC;
       muxAM                       : out STD_LOGIC;
+      muxAMD                      : out STD_LOGIC;
+      muxSD                       : out STD_LOGIC;
       zx, nx, zy, ny, f, no       : out STD_LOGIC;
-      loadA, loadD, loadM, loadPC : out STD_LOGIC
+      loadA, loadD, loadS, loadM, loadPC : out STD_LOGIC
       );
   end component;
 
   signal c_muxALUI_A: STD_LOGIC;
   signal c_muxAM: STD_LOGIC;
+  signal c_muxSD: STD_LOGIC;
+  signal c_muxAMD: STD_LOGIC;
   signal c_zx: STD_LOGIC;
   signal c_nx: STD_LOGIC;
   signal c_zy: STD_LOGIC;
@@ -86,14 +90,20 @@ architecture arch of CPU is
   signal c_no: STD_LOGIC;
   signal c_loadA: STD_LOGIC;
   signal c_loadD: STD_LOGIC;
+  signal c_loadS: STD_LOGIC;
   signal c_loadPC: STD_LOGIC;
   signal c_zr: std_logic := '0';
   signal c_ng: std_logic := '0';
 
   signal s_muxALUI_Aout: STD_LOGIC_VECTOR(15 downto 0);
   signal s_muxAM_out: STD_LOGIC_VECTOR(15 downto 0);
+  signal s_muxSD_out: STD_LOGIC_VECTOR(15 downto 0);
+  signal s_muxAMD_out: STD_LOGIC_VECTOR(15 downto 0);
+
+  
   signal s_regAout: STD_LOGIC_VECTOR(15 downto 0);
   signal s_regDout: STD_LOGIC_VECTOR(15 downto 0);
+  signal s_regSout: STD_LOGIC_VECTOR(15 downto 0);
   signal s_ALUout: STD_LOGIC_VECTOR(15 downto 0);
 
   signal s_pcout: STD_LOGIC_VECTOR(15 downto 0);
@@ -105,14 +115,20 @@ begin
   MuxAlui: Mux16 port map (s_ALUout, instruction(15 downto 0), c_muxALUI_A, s_muxALUI_Aout); --
   
   MuxAm: Mux16 port map (s_regAout, inM, c_muxAM, s_muxAM_out); --
+
+  MuxSd: Mux16 port map (s_regSout, s_regDout, c_muxSD, s_muxSD_out); --
+
+  MuxAmd: Mux16 port map (s_muxAM_out, s_regDout, c_muxAMD, s_muxAMD_out); --
   
   RegisterA: Register16 port map(clock, s_muxALUI_Aout, c_loadA, s_regAout); --
   
   RegisterD: Register16 port map(clock, s_ALUout, c_loadD, s_regDout); --
 
-  ULA: ALU port map(s_regDout, s_muxAM_out, c_zx, c_nx, c_zy, c_ny, c_f, c_no, c_zr, c_ng, s_ALUout); --
+  RegisterS: Register16 port map(clock, s_ALUout, c_loadS, s_regSout); --
 
-  Control: ControlUnit port map(instruction, c_zr, c_ng, c_muxALUI_A, c_muxAM, c_zx, c_nx, c_zy, c_ny, c_f, c_no, c_loadA, c_loadD, writeM, c_loadPC); --
+  ULA: ALU port map(s_muxSD_out, s_muxAMD_out, c_zx, c_nx, c_zy, c_ny, c_f, c_no, c_zr, c_ng, s_ALUout); --
+
+  Control: ControlUnit port map(instruction, c_zr, c_ng, c_muxALUI_A, c_muxAM, c_muxAMD, c_muxSD, c_zx, c_nx, c_zy, c_ny, c_f, c_no, c_loadA, c_loadD, writeM, c_loadPC); --
 
 
   outM <= s_ALUout;
