@@ -88,7 +88,7 @@ public class Parser {
      * @return o tipo da instrução.
      */
     public CommandType commandType(String command) {
-        /* TODO: implementar */
+        
     	return null;
     }
 
