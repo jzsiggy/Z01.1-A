@@ -92,30 +92,18 @@ ARCHITECTURE logic OF MemoryIO IS
   SIGNAL LOAD_LED         : STD_LOGIC := '0';
 
   SIGNAL OUTPUT_RAM       : STD_LOGIC_VECTOR(15 downto 0);
-<<<<<<< HEAD
 SIGNAL SW16 : STD_LOGIC_VECTOR(15 downto 0);
 SIGNAL LED16 : STD_LOGIC_VECTOR(15 downto 0);
-=======
-	SIGNAL SW16 : STD_LOGIC_VECTOR(15 downto 0);
-	SIGNAL LED16 : STD_LOGIC_VECTOR(15 downto 0);
->>>>>>> fcd79915ee10554b6b47bd435d6d25f901977579
 
 BEGIN
 
   RAM: RAM16K
     PORT MAP(
       address => ADDRESS(13 downto 0),
-<<<<<<< HEAD
       clock  => CLK_FAST,
       data  => INPUT,
       wren  => LOAD_RAM,
       q      => OUTPUT_RAM
-=======
-      clock		=> CLK_FAST,
-      data		=> INPUT,
-      wren		=> LOAD_RAM,
-      q		    => OUTPUT_RAM
->>>>>>> fcd79915ee10554b6b47bd435d6d25f901977579
       );
 
     DISPLAY: Screen  port map (
