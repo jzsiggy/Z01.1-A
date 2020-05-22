@@ -16,8 +16,7 @@ public class Code {
      * @return Opcode (String de 4 bits) com código em linguagem de máquina para a instrução.
      */
     public static String dest(String[] mnemnonic) {
-        /* TODO: implementar */
-    	return "";
+    return "";
     }
 
     /**
@@ -53,8 +52,8 @@ public class Code {
      * @return Valor em binário (String de 15 bits) representado com 0s e 1s.
      */
     public static String toBinary(String symbol) {
-        /* TODO: implementar */
-    	return "";
+        int valor = Integer.valueOf(symbol);
+        String binario = Integer.toBinaryString(valor);
+        return String.format("%1$16s", binario).replace(" ", "0");
     }
-
 }
