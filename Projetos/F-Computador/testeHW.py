@@ -46,6 +46,7 @@ if __name__ == "__main__":
 
     tstCpu.addSrc(tstCpu.work)
     tstUla.addSrc(tstCpu.work)
+    tstLogiComb.addSrc(tstCpu.work)
     tstSeq.addSrc(tstCpu.work)
     tstCpu.add(tstCpu.work)
     if tstCpu.work.run() is -1:
