@@ -17,11 +17,13 @@ entity ControlUnit is
                                                                      -- 
 		muxALUI_A                   : out STD_LOGIC;                     -- mux que seleciona entre instrução  e ALU para reg.
                                                                      -- 
-		muxAM                       : out STD_LOGIC;                     -- A mux que seleciona entre reg. A e Mem. RAM para ALU
+    muxAM                       : out STD_LOGIC;
+    muxAMD                      : out STD_LOGIC;
+    muxSD                       : out STD_LOGIC;                     -- A mux que seleciona entre reg. A e Mem. RAM para ALU
                                                                      -- 
                                                                      -- 
 		zx, nx, zy, ny, f, no       : out STD_LOGIC;                     -- sinais de controle da ALU
-		loadA, loadD, loadM, loadPC : out STD_LOGIC                      -- sinais de load do reg. A, reg. D, Mem. RAM e Program Counter
+		loadA, loadD, loadS, loadM, loadPC : out STD_LOGIC                      -- sinais de load do reg. A, reg. D, Mem. RAM e Program Counter
                                                                      -- 
     );
 end entity;
@@ -35,10 +37,13 @@ begin
 
 
   loadD <= instruction(17) and instruction(4);
-  loadM <= instruction(17) and instruction(5);
+  loadM <= instruction(17) and instruction(3);
   loadA <= not instruction(17) or instruction(3);
+  loadS <= instruction(17) and instruction(6);
 
   muxALUI_A <= not instruction(17);
+  muxSD <= not instruction(15);
+  muxAMD <= not instruction(13);
 
   zx <= instruction(17) and instruction(12);
   nx <= instruction(17) and instruction(11);
@@ -47,7 +52,7 @@ begin
   f <= instruction(17) and instruction(8);
   no <= instruction(17) and instruction(7);
 
-  muxAM <= instruction(17) and instruction(13);
+  muxAM <= instruction(14);
 
   loadPC <= 
   '1' when instruction(2 downto 0) = "001" and ng = '0' and zr = '0' and instruction(17) = '1' else
