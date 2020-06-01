@@ -29,6 +29,7 @@ public class SymbolTable {
      */
     public void addEntry(String symbol, int address) {
         /* TODO: implementar */
+        symbolTable.put(symbol, address);
     }
 
     /**
@@ -38,7 +39,7 @@ public class SymbolTable {
      */
     public Boolean contains(String symbol) {
         /* TODO: implementar */
-        return null;
+        return symbolTable.containsKey(symbol);
     }
 
     /**
@@ -48,7 +49,7 @@ public class SymbolTable {
      */
     public Integer getAddress(String symbol) {
         /* TODO: implementar */
-    	return null;
+    	return symbolTable.get(symbol);
     }
 
     /**
