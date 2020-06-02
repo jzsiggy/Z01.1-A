@@ -72,97 +72,136 @@ public class Code {
      * @return Opcode (String de 7 bits) com código em linguagem de máquina para a instrução.
      */
     public static String comp(String[] mnemnonic) {
-        if (mnemnonic.length == 2){
-            if (mnemnonic[1] == "%A"){
-                switch (mnemnonic[0]) {
-                    case "incw": return "000110111";
-                    case "decw": return "000110010";
-                    case "notw": return "000110001";
-                    case "negw": return "000110011";
-                }
-            } else if (mnemnonic[1] == "%D"){
-                switch (mnemnonic[0]){
-                    case "incw": return "000011111";
-                    case "decw": return "000001110";
-                    case "notw": return "000001101";
-                    case "negw": return "000001111";
-                }
-            } else if(mnemnonic[1] == "(%A)"){
-                switch (mnemnonic[0]){
-                    case "incw": return "001110111";
-                }
-            }
-            }else if(mnemnonic[0] == "movw"){
-            switch (mnemnonic[1]){
-                case "%A"  : return "000110000";
-                case "%D"  : return "000001100";
-                case "(%A)": return "001110000";
+        /* TODO: implementar */
+        if (mnemnonic[0].equals("incw")){
+            switch (mnemnonic[mnemnonic.length-1]){
+                case "%A"  : return "000110111";
+                case "%D"  : return "000011111";
+                case "(%A)": return "001110111";
                 default    : return "000000000";
             }
-        }else if(mnemnonic[0] == "andw"){
-            if (mnemnonic[1] == "%D"){
+        }
+
+        else if (mnemnonic[0].equals("decw")){
+            switch (mnemnonic[mnemnonic.length-1]){
+                case "%A"  : return "000110010";
+                case "%D"  : return "000001110";
+                case "(%A)": return "001110010";
+                default    : return "000000000";
+            }
+        }
+
+        else if (mnemnonic[0].equals("notw")){
+            switch (mnemnonic[mnemnonic.length-1]){
+                case "%A"   : return "000110001";
+                case "%D"   : return "000001101";
+                case "(%A)" : return "001110001";
+                default     : return "000000000";
+            }
+        }
+
+        else if (mnemnonic[0].equals("negw")){
+            switch (mnemnonic[mnemnonic.length-1]){
+                case "%A"   : return "000110011";
+                case "%D"   : return "000001111";
+                case "(%A)" : return "001110001";
+                default     : return "000000000";
+            }
+        }
+
+        else if (mnemnonic[0].equals("movw")){
+            switch (mnemnonic[1]){
+                case "$1"   : return "000111111";
+                case "$0"   : return "000101010";
+                case "$-1"  : return "000111010";
+                case "%A"   : return "000110000";
+                case "%D"   : return "000001100";
+                case "(%A)" : return "001110000";
+
+                default     : return "000000000";
+            }
+        }
+
+        else if (mnemnonic[0].equals("andw")){
+            if (mnemnonic[1] == "%A"){
                 return "000000000";
-            }else if (mnemnonic[1] == "(%A)"){
+            } else if (mnemnonic[1].equals("(%A)")){
+                return "001000000";
+            } else if (mnemnonic[2].equals("%A")){
+                return "000000000";
+            } else if (mnemnonic[2].equals("(%A)")){
                 return "001000000";
             } else {
                 return "000000000";
             }
-        }else if(mnemnonic[0] == "orw"){
-            if (mnemnonic[1] == "%D"){
+        }
+
+        else if (mnemnonic[0].equals("orw")){
+            if (mnemnonic[1].equals("%A")){
                 return "000010101";
-            }else if (mnemnonic[1] == "(%A)"){
+            } else if (mnemnonic[1].equals("(%A)")){
                 return "001010101";
-            }else{
+            }else if (mnemnonic[2].equals("%A")){
+                return "000010101";
+            } else if (mnemnonic[2].equals("(%A)")){
+                return "001010101";
+            } else {
                 return "000000000";
             }
-        }else if(mnemnonic[0] == "subw"){
-            if (mnemnonic[1] == "%A" && mnemnonic[2] == "$1"){
+        }
+
+        else if (mnemnonic[0].equals("subw")){
+            if (mnemnonic[1].equals("%A") && mnemnonic[2].equals("$1")){
                 return "000110010";
-            } else if (mnemnonic[1] == "(%A)" && mnemnonic[2] == "$1"){
+            } else if (mnemnonic[1].equals("(%A)") && mnemnonic[2].equals("$1")){
                 return "001110010";
-            }else if (mnemnonic[1] == "%A"){
+            }else if (mnemnonic[1].equals("%A")){
                 return "000000111";
-            } else if (mnemnonic[1] == "(%A)"){
+            } else if (mnemnonic[1].equals("(%A)")){
                 return "001000111";
-            } else if (mnemnonic[2] == "%A"){
+            } else if (mnemnonic[2].equals("%A")){
                 return "000010011";
-            } else if (mnemnonic[2] == "(%A)"){
+            } else if (mnemnonic[2].equals("(%A)")){
                 return "001010011";
             } else {
                 return "000000000";
             }
-        }else if(mnemnonic[0] == "rsubw"){
-            if (mnemnonic[2] == "%A" && mnemnonic[1] == "$1"){
+        }
+
+        else if (mnemnonic[0].equals("rsubw")){
+            if (mnemnonic[2].equals("%A") && mnemnonic[1].equals("$1")){
                 return "000110010";
-            } else if (mnemnonic[2] == "(%A)" && mnemnonic[1] == "$1"){
+            } else if (mnemnonic[2].equals("(%A)") && mnemnonic[1].equals("$1")){
                 return "001110010";
-            } else if (mnemnonic[1] == "(%A)"){
+            } else if (mnemnonic[1].equals("(%A)")){
                 return "001010011";
-            }else if (mnemnonic[2] == "%A"){
+            }else if (mnemnonic[2].equals("%A")){
                 return "000000111";
-            } else if (mnemnonic[2] == "(%A)"){
+            } else if (mnemnonic[2].equals("(%A)")){
                 return "001000111";
-            } else if (mnemnonic[1] == "%A"){
+            } else if (mnemnonic[1].equals("%A")){
                 return "000010011";
             } else {
                 return "000000000";
             }
-        }else if(mnemnonic[0] == "addw"){
-            if (mnemnonic[1] == "$1" && mnemnonic[2] == "%A"){
+        }
+
+        else if (mnemnonic[0].equals("addw")){
+            if (mnemnonic[1].equals("$1") && mnemnonic[2].equals("%A")){
                 return "000110111";
-            } else if (mnemnonic[1] == "%A" && mnemnonic[2] == "$1"){
+            } else if (mnemnonic[1].equals("%A") && mnemnonic[2].equals("$1")){
                 return "000110111";
-            } else if (mnemnonic[1] == "$1" && mnemnonic[2] == "(%A)"){
+            } else if (mnemnonic[1].equals("$1") && mnemnonic[2].equals("(%A)")){
                 return "001110111";
-            } else if (mnemnonic[1] == "(%A)" && mnemnonic[2] == "$1"){
+            } else if (mnemnonic[1].equals("(%A)") && mnemnonic[2].equals("$1")){
                 return "001110111";
-            } else if (mnemnonic[1] == "%A"){
+            } else if (mnemnonic[1].equals("%A")){
                 return "000000010";
-            } else if (mnemnonic[1] == "(%A)"){
+            } else if (mnemnonic[1].equals("(%A)")){
                 return "001000010";
-            }else if (mnemnonic[2] == "%A"){
+            }else if (mnemnonic[2].equals("%A")){
                 return "000000010";
-            } else if (mnemnonic[2] == "(%A)"){
+            } else if (mnemnonic[2].equals("(%A)")){
                 return "001000010";
             } else {
                 return "000000000";
