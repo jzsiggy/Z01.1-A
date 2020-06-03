@@ -1,3 +1,0 @@
-OK  : testParser_label
-OK  : testParser_commandType
-OK  : testParser_advance
