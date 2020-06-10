@@ -37,7 +37,7 @@ LCDletraGrupo.nasm 0 10000
 ## conceito A
 ###########################
 
-vectorMean.nasm  2000
+vectorMean.nasm 2 2000
 SWeLED2.nasm 1 1000
 
 
